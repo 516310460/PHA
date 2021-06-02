@@ -23,12 +23,6 @@
   "SlideVerify": {
     "description": "Auto imported from components/SlideVerify.vue"
   },
-  "InProgress": {
-    "description": "Auto imported from components/InProgress/index.vue"
-  },
-  "BuycoinsHeader": {
-    "description": "Auto imported from components/buycoins/Header.vue"
-  },
   "HashRateDepthChart": {
     "description": "Auto imported from components/HashRate/depth-chart.vue"
   },
@@ -71,6 +65,12 @@
   "HashRateXbitTrend": {
     "description": "Auto imported from components/HashRate/xbitTrend.vue"
   },
+  "InProgress": {
+    "description": "Auto imported from components/InProgress/index.vue"
+  },
+  "BuycoinsHeader": {
+    "description": "Auto imported from components/buycoins/Header.vue"
+  },
   "DialogNicknameDialog": {
     "description": "Auto imported from components/dialog/NicknameDialog.vue"
   },
@@ -98,6 +98,9 @@
   "TVpublicTradeDealHeader": {
     "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
   },
+  "KlineMain": {
+    "description": "Auto imported from components/kline/main.vue"
+  },
   "SelectSearchPhoneSearch": {
     "description": "Auto imported from components/selectSearch/PhoneSearch.vue"
   },
@@ -109,9 +112,6 @@
   },
   "SelectSearchText": {
     "description": "Auto imported from components/selectSearch/text.vue"
-  },
-  "KlineMain": {
-    "description": "Auto imported from components/kline/main.vue"
   },
   "HashRateDatafeedsDataUpdater": {
     "description": "Auto imported from components/HashRate/datafeeds/dataUpdater.js"

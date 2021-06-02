@@ -12,7 +12,12 @@ module.exports = {
   theme: {
     extend: {
       width: {
+        '240': '240px',
+        '420': '420px',
         '1200': '1200px'
+      },
+      height: {
+        '220': '220px'
       }
     },
   },

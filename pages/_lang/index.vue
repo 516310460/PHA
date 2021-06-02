@@ -106,7 +106,7 @@
         </div>
       </div>
       <div class="xl:w-1200 mx-auto mt-6">
-        <h1 class="chia_title">CHIA矿池 轻松挖矿</h1>
+        <h1 class="chia_title">隆亿跨度 轻松挖矿</h1>
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-y-4">
           <div class="bkffffff rounded-lg p-8 flex items-center shadow-lg">
             <img
@@ -116,7 +116,7 @@
             >
             <div>
               <p class="font-bold fs18 mb-4">收益不掉队</p>
-              <p>Chia矿池让您不错过任何一波高收益机会，收益永不掉队</p>
+              <p>隆亿跨度让您不错过任何一波高收益机会，收益永不掉队</p>
             </div>
           </div>
           <div class="bkffffff rounded-lg p-8 flex items-center shadow-lg">
@@ -127,7 +127,7 @@
             >
             <div>
               <p class="font-bold fs18 mb-4">算力稳定</p>
-              <p>Chia矿池采用自研架构，高性能，低延迟，保证算力以及出块的稳定</p>
+              <p>隆亿跨度采用自研架构，高性能，低延迟，保证算力以及出块的稳定</p>
             </div>
           </div>
           <div class="bkffffff rounded-lg p-8 flex items-center shadow-lg">
