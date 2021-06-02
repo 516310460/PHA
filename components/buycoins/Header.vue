@@ -29,8 +29,7 @@
             <span
               :class="activeMenu == '自选区' ? 'clffffff' : 'cl9FA9C0'"
               class="fs14 h28"
-              >自选区</span
-            >
+            >自选区</span>
           </nuxt-link>
         </li>
         <li
@@ -45,14 +44,17 @@
             <span
               :class="activeMenu == '快捷区' ? 'clffffff' : 'cl9FA9C0'"
               class="fs14 h28"
-              >快捷区</span
-            >
+            >快捷区</span>
           </nuxt-link>
         </li>
       </ul>
       <ul class="flex items-center h60 clffffff">
         <li class="hover-cl02AD8F mx-4 flex items-center justify-center">
-          <img class="h16" src="/img/icons/icon_video.svg" alt="" />
+          <img
+            class="h16"
+            src="/img/icons/icon_video.svg"
+            alt=""
+          />
           <span class="ml-1 mb-0.5">视频教程</span>
         </li>
         <li
@@ -65,14 +67,25 @@
             class="hover-cl02AD8F h28 flex items-center justify-center"
             :to="`/${locale}/Buycoins/FiatOrder`"
           >
-            <img class="h16" src="/img/icons/icon_order.svg" alt="" />
+            <img
+              class="h16"
+              src="/img/icons/icon_order.svg"
+              alt=""
+            />
             <span class="ml-1 mb-0.5">订单</span>
           </nuxt-link>
         </li>
-        <li v-show="token" class="hover-cl02AD8F mx-4 flex items-center">
+        <li
+          v-show="token"
+          class="hover-cl02AD8F mx-4 flex items-center"
+        >
           <el-dropdown trigger="click">
             <span class="el-dropdown-link flex items-center clffffff">
-              <img class="h16" src="/img/icons/icon_more.svg" alt="" />
+              <img
+                class="h16"
+                src="/img/icons/icon_more.svg"
+                alt=""
+              />
               <span class="ml-1 mb-0.5">更多</span>
             </span>
             <el-dropdown-menu
@@ -86,7 +99,11 @@
                   @click="settingPay()"
                   class="clffffff w-full flex items-center"
                 >
-                  <img class="i-icon" src="/img/icons/icon_setup.svg" alt="" />
+                  <img
+                    class="i-icon"
+                    src="/img/icons/icon_setup.svg"
+                    alt=""
+                  />
                   <span class="ml-1">支付设置</span>
                 </div>
               </el-dropdown-item>
@@ -96,7 +113,11 @@
                   class="clffffff flex items-center"
                   @click="$verification.isOpenPayment()"
                 >
-                  <img class="i-icon" src="/img/icons/icon_addto.svg" alt="" />
+                  <img
+                    class="i-icon"
+                    src="/img/icons/icon_addto.svg"
+                    alt=""
+                  />
                   <span class="ml-1">发布新广告</span>
                 </div>
               </el-dropdown-item>
@@ -132,8 +153,12 @@
                   class="clffffff flex items-center"
                   :to="`/${locale}/commonProblem/_index`"
                 >
-                <img class="i-icon" src="/img/icons/icon_problem.svg" alt="" />
-                <span class="ml-1">常见问题</span>
+                  <img
+                    class="i-icon"
+                    src="/img/icons/icon_problem.svg"
+                    alt=""
+                  />
+                  <span class="ml-1">常见问题</span>
                 </nuxt-link>
               </el-dropdown-item>
             </el-dropdown-menu>
@@ -154,7 +179,7 @@ export default {
       default: '自选区',
     },
   },
-  data() {
+  data () {
     return {
       activeMenu: '',
     }
@@ -162,13 +187,13 @@ export default {
   computed: {
     ...mapState(['locale', 'UserInfo', 'token']),
   },
-  mounted() {
+  mounted () {
     this.$nextTick(() => {
       this.activeMenu = this.currentMenu
     })
   },
   methods: {
-    settingPay() {
+    settingPay () {
       this.$store.commit('SET_MENU', 'user')
       this.$router.push(`/${this.locale}/user/payment`)
     },

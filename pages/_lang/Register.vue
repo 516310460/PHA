@@ -219,7 +219,7 @@ export default {
 .loginBG {
   height: 100vh;
   width: 100%;
-  background: url('/img/home/login_bg.9e7ff4d.jpg') no-repeat 50%;
+  background: url('/img/Home/login_bg.9e7ff4d.jpg') no-repeat 50%;
   background-size: 100% 100%;
   background-attachment: fixed;
 }

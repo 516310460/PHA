@@ -31,7 +31,7 @@
       </div>
       <img
         class="absolute right-0 bottom40 w-full z-0"
-        src="/img/home/banner.7ead67d.jpg"
+        src="/img/Home/banner.7ead67d.jpg"
         alt=""
       >
       <Notice class="bk222E4B" />
@@ -85,7 +85,7 @@
           <div class="bkffffff rounded-lg p-8 flex items-center shadow-lg">
             <img
               class="h-24 mr-8"
-              src="/img/home/n_index_i2.d0509c6.png"
+              src="/img/Home/n_index_i2.d0509c6.png"
               alt=""
             >
             <div>
@@ -96,7 +96,7 @@
           <div class="bkffffff rounded-lg p-8 flex items-center shadow-lg">
             <img
               class="h-24 mr-8"
-              src="/img/home/n_index_i3.8bc0cb3.png"
+              src="/img/Home/n_index_i3.8bc0cb3.png"
               alt=""
             >
             <div>
@@ -107,7 +107,7 @@
           <div class="bkffffff rounded-lg p-8 flex items-center shadow-lg">
             <img
               class="h-24 mr-8"
-              src="/img/home/n_index_i4.4a1bb89.png"
+              src="/img/Home/n_index_i4.4a1bb89.png"
               alt=""
             >
             <div>
