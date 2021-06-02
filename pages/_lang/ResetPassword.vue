@@ -99,9 +99,9 @@
               style="display: none;"
             ></p>
             <div
-              @click="getCodeEmail"
+              @click="!timer && getCodeEmail()"
               class="cursor cursor-pointer sendCodeBa sendCodeYes"
-            >发送验证码</div>
+            >{{timer ? timerCount + 'S后重新获取' : '发送验证码'}}</div>
           </div>
         </div>
         <div class="mt20 text_center loginParameter_input">
@@ -143,10 +143,15 @@ export default {
         "rePassword": "",// "确认密码"
         "code": "",// "邮件验证码"
       },
+      timer: null,
+      timerCount: 60,
     };
   },
   computed: {
     ...mapState(['locale'])
+  },
+  destroyed () {
+    clearInterval(this.timer)
   },
   mounted () {
     this.$nextTick(() => {
@@ -165,6 +170,14 @@ export default {
       this.$api.user.getCodeEmail(params).then(res => {
         if (res.type == "success") {
           this.$message.success("获取验证码成功")
+          this.timer = setInterval(() => {
+            this.timerCount--
+            if (this.timerCount == 0) {
+              clearInterval(this.timer)
+              this.timer = null
+              this.timerCount = 60
+            }
+          }, 1000);
         }
       })
     },

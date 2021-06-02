@@ -1,6 +1,6 @@
 <template>
   <div class="h-full">
-    <div class="head flex items-center h-full w1200 mx-auto">
+    <div class="head flex items-center h-full xl:w-1200 px-4 xl:px-0 mx-auto">
       <nuxt-link
         :to="`/${locale}`"
         class="pc_show base_width router-link-exact-active router-link-active"

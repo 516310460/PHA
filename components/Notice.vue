@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="OTCNotice w1200 mx-auto bk222E4B">
+    <section class="OTCNotice w-1200 mx-auto bk222E4B">
       <section class="OTCNotice-Content">
         <div class="flex items-center justify-between">
           <img

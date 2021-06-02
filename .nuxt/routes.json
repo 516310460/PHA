@@ -2,36 +2,36 @@
   {
     "name": "lang",
     "path": "/:lang",
-    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/pha/pages/_lang/index.vue",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/index.vue",
     "chunkName": "pages/_lang/index",
-    "_name": "_1507e81d"
+    "_name": "_6ecd7806"
   },
   {
     "name": "lang-Assets",
     "path": "/:lang?/Assets",
-    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/pha/pages/_lang/Assets.vue",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/Assets.vue",
     "chunkName": "pages/_lang/Assets",
-    "_name": "_58db7968"
+    "_name": "_17759988"
   },
   {
     "name": "lang-Login",
     "path": "/:lang?/Login",
-    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/pha/pages/_lang/Login.vue",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/Login.vue",
     "chunkName": "pages/_lang/Login",
-    "_name": "_5621ab14"
+    "_name": "_09b306f4"
   },
   {
     "name": "lang-Register",
     "path": "/:lang?/Register",
-    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/pha/pages/_lang/Register.vue",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/Register.vue",
     "chunkName": "pages/_lang/Register",
-    "_name": "_1356b570"
+    "_name": "_76e73d68"
   },
   {
     "name": "lang-ResetPassword",
     "path": "/:lang?/ResetPassword",
-    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/pha/pages/_lang/ResetPassword.vue",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/ResetPassword.vue",
     "chunkName": "pages/_lang/ResetPassword",
-    "_name": "_4e6c3d35"
+    "_name": "_1f588dd6"
   }
 ]

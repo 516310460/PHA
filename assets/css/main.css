@@ -226,6 +226,10 @@ input {
     font-size: 66px;
 }
 
+.mxAuto{
+  margin: 0 auto !important;
+}
+
 .mh160 {
     min-height: 160px;
 }
@@ -1656,7 +1660,7 @@ button:focus,
 }
 
 .MainScrollbar>.el-scrollbar__wrap>.el-scrollbar__view {
-    min-width: 1348px;
+    /* min-width: 1348px; */
 }
 
 .el-select-dropdown .el-scrollbar__wrap {

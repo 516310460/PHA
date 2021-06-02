@@ -4,11 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1507e81d = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
-const _58db7968 = () => interopDefault(import('../pages/_lang/Assets.vue' /* webpackChunkName: "pages/_lang/Assets" */))
-const _5621ab14 = () => interopDefault(import('../pages/_lang/Login.vue' /* webpackChunkName: "pages/_lang/Login" */))
-const _1356b570 = () => interopDefault(import('../pages/_lang/Register.vue' /* webpackChunkName: "pages/_lang/Register" */))
-const _4e6c3d35 = () => interopDefault(import('../pages/_lang/ResetPassword.vue' /* webpackChunkName: "pages/_lang/ResetPassword" */))
+const _6ecd7806 = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
+const _17759988 = () => interopDefault(import('../pages/_lang/Assets.vue' /* webpackChunkName: "pages/_lang/Assets" */))
+const _09b306f4 = () => interopDefault(import('../pages/_lang/Login.vue' /* webpackChunkName: "pages/_lang/Login" */))
+const _76e73d68 = () => interopDefault(import('../pages/_lang/Register.vue' /* webpackChunkName: "pages/_lang/Register" */))
+const _1f588dd6 = () => interopDefault(import('../pages/_lang/ResetPassword.vue' /* webpackChunkName: "pages/_lang/ResetPassword" */))
 
 const emptyFn = () => {}
 
@@ -23,23 +23,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/:lang",
-    component: _1507e81d,
+    component: _6ecd7806,
     name: "lang"
   }, {
     path: "/:lang?/Assets",
-    component: _58db7968,
+    component: _17759988,
     name: "lang-Assets"
   }, {
     path: "/:lang?/Login",
-    component: _5621ab14,
+    component: _09b306f4,
     name: "lang-Login"
   }, {
     path: "/:lang?/Register",
-    component: _1356b570,
+    component: _76e73d68,
     name: "lang-Register"
   }, {
     path: "/:lang?/ResetPassword",
-    component: _4e6c3d35,
+    component: _1f588dd6,
     name: "lang-ResetPassword"
   }],
 

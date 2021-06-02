@@ -1,6 +1,6 @@
 <template>
   <div class="bkecf9f1">
-    <div class="w1200 mx-auto">
+    <div class="w-1200 mx-auto">
       <div class="flex items-center h220">
         <div class="w240 bkffffff p-4 text-center h-full">
           <!-- <img
@@ -263,9 +263,9 @@
               style="display: none;"
             ></p>
             <div
-              @click="getCodeEmail"
-              class=" cursor sendCodeBa sendCodeYes"
-            >发送验证码</div>
+              @click="!timer && getCodeEmail()"
+              class="cursor cursor-pointer sendCodeBa sendCodeYes"
+            >{{timer ? timerCount + 'S后重新获取' : '发送验证码'}}</div>
           </div>
         </div>
         <div class="login_list mt10"><img
@@ -384,9 +384,9 @@
               style="display: none;"
             ></p>
             <div
-              @click="getCodeEmail(1)"
-              class=" cursor sendCodeBa sendCodeYes"
-            >发送验证码</div>
+              @click="!timer && getCodeEmail(1)"
+              class="cursor cursor-pointer sendCodeBa sendCodeYes"
+            >{{timer ? timerCount + 'S后重新获取' : '发送验证码'}}</div>
           </div>
         </div>
         <div class="new_introduct">
@@ -474,11 +474,16 @@ export default {
         "address": "",// "收款地址"
         "balance": "",// "提币金额"
         "code": "",// "邮件验证码"
-      }
+      },
+      timer: null,
+      timerCount: 60,
     }
   },
   computed: {
     ...mapState(['locale', 'token', 'UserInfo'])
+  },
+  destroyed () {
+    clearInterval(this.timer)
   },
   mounted () {
     this.balance()
@@ -547,6 +552,14 @@ export default {
       this.$api.user.getCodeEmail(params).then(res => {
         if (res.type == "success") {
           this.$message.success("获取验证码成功")
+          this.timer = setInterval(() => {
+            this.timerCount--
+            if (this.timerCount == 0) {
+              clearInterval(this.timer)
+              this.timer = null
+              this.timerCount = 60
+            }
+          }, 1000);
         }
       })
     },

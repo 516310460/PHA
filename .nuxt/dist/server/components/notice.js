@@ -53,12 +53,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Notice.vue?vue&type=template&id=4f6ab937&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_vm._ssrNode("<section class=\"OTCNotice w1200 mx-auto bk222E4B\">","</section>",[_vm._ssrNode("<section class=\"OTCNotice-Content\">","</section>",[_vm._ssrNode("<div class=\"flex items-center justify-between\">","</div>",[_vm._ssrNode("<img src=\"/svg/tongzhi.svg\" alt> "),_vm._ssrNode("<div class=\"marquee_box flex-1\">","</div>",[_c('marquee',{staticClass:"clffffff"},[_vm._v("近期因hpool官方对矿池异常账户进行清理，是为解决双挖、假算力、网络DDOS攻击等问题，从而确保矿工的利益。在此期间hpool矿池的提现速度降低，请各位会员稍多等待一段时间，给各位带来的不便，敬请谅解。")])],1)],2)])])])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Notice.vue?vue&type=template&id=cc07cb14&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_vm._ssrNode("<section class=\"OTCNotice w-1200 mx-auto bk222E4B\">","</section>",[_vm._ssrNode("<section class=\"OTCNotice-Content\">","</section>",[_vm._ssrNode("<div class=\"flex items-center justify-between\">","</div>",[_vm._ssrNode("<img src=\"/svg/tongzhi.svg\" alt> "),_vm._ssrNode("<div class=\"marquee_box flex-1\">","</div>",[_c('marquee',{staticClass:"clffffff"},[_vm._v("近期因hpool官方对矿池异常账户进行清理，是为解决双挖、假算力、网络DDOS攻击等问题，从而确保矿工的利益。在此期间hpool矿池的提现速度降低，请各位会员稍多等待一段时间，给各位带来的不便，敬请谅解。")])],1)],2)])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Notice.vue?vue&type=template&id=4f6ab937&
+// CONCATENATED MODULE: ./components/Notice.vue?vue&type=template&id=cc07cb14&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Notice.vue?vue&type=script&lang=js&
 //
@@ -183,7 +183,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "4261b752"
+  "9cd07a1c"
   
 )
 

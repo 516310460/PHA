@@ -1,9 +1,7 @@
 <template>
   <div class="Footer bk0F182D">
-    <div class="w1200 mx-auto">
-      <div
-        class="flex items-start leading-10 w-full pt-20 pb-16 cl9FA9C0 border-b bc-co121D36"
-      >
+    <div class="w-1200 mx-auto">
+      <div class="flex items-start leading-10 w-full pt-20 pb-16 cl9FA9C0 border-b bc-co121D36">
         <div class="flex-1 text-center">
           <p class="fs18 clffffff">关于我们</p>
           <nuxt-link :to="`/about/index`">关于我们</nuxt-link>
@@ -33,7 +31,7 @@
           <p>商务联络</p>
           <p>币池动态</p>
           <p>
-            <nuxt-link :to="`/information/index`">资讯中心</nuxt-link>            
+            <nuxt-link :to="`/information/index`">资讯中心</nuxt-link>
           </p>
         </div>
         <div class="flex-1 text-center">
@@ -55,7 +53,9 @@
         </div>
         <div class="flex-1 text-center">
           <p class="fs18 clffffff">社区</p>
-          <p><nuxt-link :to="`/community/index`">加入社区</nuxt-link></p>
+          <p>
+            <nuxt-link :to="`/community/index`">加入社区</nuxt-link>
+          </p>
           <p>职业机会</p>
           <p>商务联络</p>
           <p>币池动态</p>
@@ -71,13 +71,13 @@
 <script>
 import { mapState, mapMutations } from 'vuex'
 export default {
-  data() {
+  data () {
     return {}
   },
   computed: {
     ...mapState(['locale']),
   },
-  mounted() {},
+  mounted () { },
   methods: {},
 }
 </script>
