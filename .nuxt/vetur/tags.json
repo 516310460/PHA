@@ -23,6 +23,51 @@
   "SlideVerify": {
     "description": "Auto imported from components/SlideVerify.vue"
   },
+  "BuycoinsHeader": {
+    "description": "Auto imported from components/buycoins/Header.vue"
+  },
+  "TVpublicDealHeader": {
+    "description": "Auto imported from components/TVpublic/deal-header.vue"
+  },
+  "TVpublicHashRateDealHeader": {
+    "description": "Auto imported from components/TVpublic/hashRate-deal-header.vue"
+  },
+  "TVpublicLoading": {
+    "description": "Auto imported from components/TVpublic/loading.vue"
+  },
+  "TVpublicNumber": {
+    "description": "Auto imported from components/TVpublic/number.vue"
+  },
+  "TVpublicPageLoading": {
+    "description": "Auto imported from components/TVpublic/page-loading.vue"
+  },
+  "TVpublicSlider": {
+    "description": "Auto imported from components/TVpublic/slider.vue"
+  },
+  "TVpublicTradeDealHeader": {
+    "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
+  },
+  "DialogNicknameDialog": {
+    "description": "Auto imported from components/dialog/NicknameDialog.vue"
+  },
+  "DialogTipsDialog": {
+    "description": "Auto imported from components/dialog/TipsDialog.vue"
+  },
+  "SelectSearchPhoneSearch": {
+    "description": "Auto imported from components/selectSearch/PhoneSearch.vue"
+  },
+  "SelectSearchPopper": {
+    "description": "Auto imported from components/selectSearch/Popper.vue"
+  },
+  "SelectSearch": {
+    "description": "Auto imported from components/selectSearch/SelectSearch.vue"
+  },
+  "SelectSearchText": {
+    "description": "Auto imported from components/selectSearch/text.vue"
+  },
+  "InProgress": {
+    "description": "Auto imported from components/InProgress/index.vue"
+  },
   "HashRateDepthChart": {
     "description": "Auto imported from components/HashRate/depth-chart.vue"
   },
@@ -65,53 +110,8 @@
   "HashRateXbitTrend": {
     "description": "Auto imported from components/HashRate/xbitTrend.vue"
   },
-  "InProgress": {
-    "description": "Auto imported from components/InProgress/index.vue"
-  },
-  "BuycoinsHeader": {
-    "description": "Auto imported from components/buycoins/Header.vue"
-  },
-  "DialogNicknameDialog": {
-    "description": "Auto imported from components/dialog/NicknameDialog.vue"
-  },
-  "DialogTipsDialog": {
-    "description": "Auto imported from components/dialog/TipsDialog.vue"
-  },
-  "TVpublicDealHeader": {
-    "description": "Auto imported from components/TVpublic/deal-header.vue"
-  },
-  "TVpublicHashRateDealHeader": {
-    "description": "Auto imported from components/TVpublic/hashRate-deal-header.vue"
-  },
-  "TVpublicLoading": {
-    "description": "Auto imported from components/TVpublic/loading.vue"
-  },
-  "TVpublicNumber": {
-    "description": "Auto imported from components/TVpublic/number.vue"
-  },
-  "TVpublicPageLoading": {
-    "description": "Auto imported from components/TVpublic/page-loading.vue"
-  },
-  "TVpublicSlider": {
-    "description": "Auto imported from components/TVpublic/slider.vue"
-  },
-  "TVpublicTradeDealHeader": {
-    "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
-  },
   "KlineMain": {
     "description": "Auto imported from components/kline/main.vue"
-  },
-  "SelectSearchPhoneSearch": {
-    "description": "Auto imported from components/selectSearch/PhoneSearch.vue"
-  },
-  "SelectSearchPopper": {
-    "description": "Auto imported from components/selectSearch/Popper.vue"
-  },
-  "SelectSearch": {
-    "description": "Auto imported from components/selectSearch/SelectSearch.vue"
-  },
-  "SelectSearchText": {
-    "description": "Auto imported from components/selectSearch/text.vue"
   },
   "HashRateDatafeedsDataUpdater": {
     "description": "Auto imported from components/HashRate/datafeeds/dataUpdater.js"
