@@ -128,7 +128,7 @@
                 </div>
               </div>
             </div>
-            <p class="fs18 py-3">{{item.coinName}}总算力：0 T</p>
+            <p class="fs18 py-3">{{item.coinName}}总算力：{{item.coinName == 'PHA' ? UserInfo.gamePoints : 0}} 核</p>
           </div>
         </div>
       </div>
