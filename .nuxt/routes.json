@@ -14,11 +14,25 @@
     "_name": "_17759988"
   },
   {
+    "name": "lang-download",
+    "path": "/:lang?/download",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/download.vue",
+    "chunkName": "pages/_lang/download",
+    "_name": "_150108ad"
+  },
+  {
     "name": "lang-Login",
     "path": "/:lang?/Login",
     "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/Login.vue",
     "chunkName": "pages/_lang/Login",
     "_name": "_09b306f4"
+  },
+  {
+    "name": "lang-RegDownload",
+    "path": "/:lang?/RegDownload",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA/pages/_lang/RegDownload.vue",
+    "chunkName": "pages/_lang/RegDownload",
+    "_name": "_64f8e507"
   },
   {
     "name": "lang-Register",

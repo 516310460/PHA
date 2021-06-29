@@ -1,7 +1,7 @@
 exports.ids = [7,6];
 exports.modules = {
 
-/***/ 190:
+/***/ 194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -123,12 +123,12 @@ class dataUpdater {
 
 /***/ }),
 
-/***/ 230:
+/***/ 237:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _dataUpdater__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(190);
+/* harmony import */ var _dataUpdater__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(194);
 /**
  * JS API
  */

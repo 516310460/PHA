@@ -1,26 +1,26 @@
 exports.ids = [0,30,31,32,33,34];
 exports.modules = {
 
-/***/ 142:
+/***/ 146:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChartManager", function() { return ChartManager; });
-/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(205);
-/* harmony import */ var _chart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(337);
-/* harmony import */ var _indicators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(338);
-/* harmony import */ var _ranges__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(243);
-/* harmony import */ var _templates__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(206);
-/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(152);
-/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(186);
-/* harmony import */ var _data_providers__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(211);
-/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(187);
-/* harmony import */ var _plotters__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(209);
-/* harmony import */ var _ctools__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(208);
-/* harmony import */ var _areas__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(204);
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(158);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(137);
+/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(209);
+/* harmony import */ var _chart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(350);
+/* harmony import */ var _indicators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(351);
+/* harmony import */ var _ranges__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(250);
+/* harmony import */ var _templates__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(210);
+/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(156);
+/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(190);
+/* harmony import */ var _data_providers__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(215);
+/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(191);
+/* harmony import */ var _plotters__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(213);
+/* harmony import */ var _ctools__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(212);
+/* harmony import */ var _areas__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(208);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(162);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(141);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_13__);
 
 
@@ -37,7 +37,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-__webpack_require__(141);
+__webpack_require__(145);
 
 class ChartManager {
   constructor() {
@@ -1317,13 +1317,13 @@ ChartManager.instance = null;
 
 /***/ }),
 
-/***/ 145:
+/***/ 149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NamedObject", function() { return NamedObject; });
-/* harmony import */ var _cname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(185);
+/* harmony import */ var _cname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(189);
 
 class NamedObject {
   constructor(name) {
@@ -1390,16 +1390,16 @@ class NamedObject {
 
 /***/ }),
 
-/***/ 152:
+/***/ 156:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataSource", function() { return DataSource; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainDataSource", function() { return MainDataSource; });
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(145);
-/* harmony import */ var _ctool_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(334);
-/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(157);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(149);
+/* harmony import */ var _ctool_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(347);
+/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(161);
 
 
 
@@ -1623,16 +1623,16 @@ class MainDataSource extends DataSource {
 
 /***/ }),
 
-/***/ 157:
+/***/ 161:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Kline; });
-/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(205);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(142);
-/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(186);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(137);
+/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(209);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(190);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(141);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -2244,7 +2244,7 @@ Kline.instance = null;
 
 /***/ }),
 
-/***/ 158:
+/***/ 162:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2276,7 +2276,7 @@ class Util {
 
 /***/ }),
 
-/***/ 185:
+/***/ 189:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2329,13 +2329,13 @@ class CName {
 
 /***/ }),
 
-/***/ 186:
+/***/ 190:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChartSettings", function() { return ChartSettings; });
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(142);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
 
 class ChartSettings {
   static checkVersion() {
@@ -2434,7 +2434,7 @@ class ChartSettings {
 
 /***/ }),
 
-/***/ 187:
+/***/ 191:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2442,7 +2442,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Theme", function() { return Theme; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DarkTheme", function() { return DarkTheme; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LightTheme", function() { return LightTheme; });
-/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(157);
+/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(161);
 
 class Theme {
   constructor() {
@@ -2589,7 +2589,7 @@ class LightTheme extends Theme {
 
 /***/ }),
 
-/***/ 204:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2601,9 +2601,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndicatorRangeArea", function() { return IndicatorRangeArea; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TimelineArea", function() { return TimelineArea; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChartAreaGroup", function() { return ChartAreaGroup; });
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(145);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(142);
-/* harmony import */ var _mevent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(212);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(149);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _mevent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(216);
 
 
 
@@ -3115,18 +3115,18 @@ class ChartAreaGroup extends ChartArea {
 
 /***/ }),
 
-/***/ 205:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Control", function() { return Control; });
-/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(157);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(142);
-/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(186);
-/* harmony import */ var _templates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(206);
-/* harmony import */ var _mevent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(212);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(137);
+/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(161);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(190);
+/* harmony import */ var _templates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(210);
+/* harmony import */ var _mevent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(216);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(141);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -3701,7 +3701,7 @@ Control.refreshHandler = null;
 
 /***/ }),
 
-/***/ 206:
+/***/ 210:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3709,17 +3709,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Template", function() { return Template; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DefaultTemplate", function() { return DefaultTemplate; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TemplateMeasuringHandler", function() { return TemplateMeasuringHandler; });
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(142);
-/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(186);
-/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(152);
-/* harmony import */ var _data_providers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(211);
-/* harmony import */ var _areas__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(204);
-/* harmony import */ var _plotters__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(209);
-/* harmony import */ var _timeline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(335);
-/* harmony import */ var _cname__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(185);
-/* harmony import */ var _layouts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(336);
-/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(187);
-/* harmony import */ var _ranges__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(243);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
+/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(190);
+/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(156);
+/* harmony import */ var _data_providers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(215);
+/* harmony import */ var _areas__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(208);
+/* harmony import */ var _plotters__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(213);
+/* harmony import */ var _timeline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(348);
+/* harmony import */ var _cname__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(189);
+/* harmony import */ var _layouts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(349);
+/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(191);
+/* harmony import */ var _ranges__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(250);
 
 
 
@@ -3918,16 +3918,16 @@ class TemplateMeasuringHandler {
 
 /***/ }),
 
-/***/ 207:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CPoint", function() { return CPoint; });
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(142);
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(145);
-/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(152);
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(158);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(149);
+/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(156);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(162);
 
 
 
@@ -4070,7 +4070,7 @@ CPoint.state = {
 
 /***/ }),
 
-/***/ 208:
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4093,12 +4093,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CVertiStraightLineObject", function() { return CVertiStraightLineObject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CPriceLineObject", function() { return CPriceLineObject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CArrowLineObject", function() { return CArrowLineObject; });
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(142);
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(145);
-/* harmony import */ var _cpoint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(207);
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(158);
-/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(152);
-/* harmony import */ var _plotters__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(209);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(149);
+/* harmony import */ var _cpoint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(211);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(162);
+/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(156);
+/* harmony import */ var _plotters__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(213);
 
 
 
@@ -5070,7 +5070,7 @@ class CArrowLineObject extends CSegLineObject {
 
 /***/ }),
 
-/***/ 209:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5115,16 +5115,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DrawBandLinesPlotter", function() { return DrawBandLinesPlotter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DrawFibFansPlotter", function() { return DrawFibFansPlotter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CDynamicLinePlotter", function() { return CDynamicLinePlotter; });
-/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(157);
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(145);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(142);
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(158);
-/* harmony import */ var _cpoint__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(207);
-/* harmony import */ var _exprs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(210);
-/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(187);
-/* harmony import */ var _data_providers__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(211);
-/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(152);
-/* harmony import */ var _ctools__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(208);
+/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(161);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(149);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(146);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(162);
+/* harmony import */ var _cpoint__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(211);
+/* harmony import */ var _exprs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(214);
+/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(191);
+/* harmony import */ var _data_providers__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(215);
+/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(156);
+/* harmony import */ var _ctools__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(212);
 
 
 
@@ -7888,7 +7888,7 @@ class CDynamicLinePlotter extends _named_object__WEBPACK_IMPORTED_MODULE_1__["Na
 
 /***/ }),
 
-/***/ 210:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8856,7 +8856,7 @@ class SarExpr extends OpABCDExpr {
 
 /***/ }),
 
-/***/ 211:
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8864,10 +8864,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataProvider", function() { return DataProvider; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainDataProvider", function() { return MainDataProvider; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndicatorDataProvider", function() { return IndicatorDataProvider; });
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(145);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(142);
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(158);
-/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(152);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(149);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(162);
+/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(156);
 
 
 
@@ -9090,7 +9090,7 @@ class IndicatorDataProvider extends DataProvider {
 
 /***/ }),
 
-/***/ 212:
+/***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9143,7 +9143,7 @@ class MEvent {
 
 /***/ }),
 
-/***/ 243:
+/***/ 250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9154,8 +9154,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainRange", function() { return MainRange; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ZeroCenteredRange", function() { return ZeroCenteredRange; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PercentageRange", function() { return PercentageRange; });
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(145);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(142);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(149);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
 
 
 class Range extends _named_object__WEBPACK_IMPORTED_MODULE_0__["NamedObject"] {
@@ -9561,15 +9561,15 @@ class PercentageRange extends Range {
 
 /***/ }),
 
-/***/ 334:
+/***/ 347:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CToolManager", function() { return CToolManager; });
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(145);
-/* harmony import */ var _cpoint__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(207);
-/* harmony import */ var _ctools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(208);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(149);
+/* harmony import */ var _cpoint__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(211);
+/* harmony import */ var _ctools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(212);
 
 
 
@@ -9715,15 +9715,15 @@ class CToolManager extends _named_object__WEBPACK_IMPORTED_MODULE_0__["NamedObje
 
 /***/ }),
 
-/***/ 335:
+/***/ 348:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Timeline", function() { return Timeline; });
-/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(145);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(142);
-/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(152);
+/* harmony import */ var _named_object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(149);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _data_sources__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(156);
 
 
 
@@ -9994,18 +9994,18 @@ Timeline.PADDING_RIGHT = 8;
 
 /***/ }),
 
-/***/ 336:
+/***/ 349:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TableLayout", function() { return TableLayout; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DockableLayout", function() { return DockableLayout; });
-/* harmony import */ var _areas__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(204);
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(142);
-/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(187);
-/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(186);
-/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(157);
+/* harmony import */ var _areas__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(208);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(191);
+/* harmony import */ var _chart_settings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(190);
+/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(161);
 
 
 
@@ -10434,17 +10434,17 @@ class DockableLayout extends _areas__WEBPACK_IMPORTED_MODULE_0__["ChartAreaGroup
 
 /***/ }),
 
-/***/ 337:
+/***/ 350:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Chart", function() { return Chart; });
-/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(142);
-/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(205);
-/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(157);
-/* harmony import */ var _templates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(206);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(137);
+/* harmony import */ var _chart_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
+/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(209);
+/* harmony import */ var _kline__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(161);
+/* harmony import */ var _templates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(210);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(141);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_4__);
 
 
@@ -10699,7 +10699,7 @@ Chart.strPeriod = {
 
 /***/ }),
 
-/***/ 338:
+/***/ 351:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10726,8 +10726,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BOLLIndicator", function() { return BOLLIndicator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PSYIndicator", function() { return PSYIndicator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "STOCHRSIIndicator", function() { return STOCHRSIIndicator; });
-/* harmony import */ var _exprs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(210);
-/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(187);
+/* harmony import */ var _exprs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(214);
+/* harmony import */ var _themes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(191);
 
 
 class Indicator {

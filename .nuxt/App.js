@@ -7,6 +7,8 @@ import NuxtLoading from './components/nuxt-loading.vue'
 
 import '../assets/css/tailwind.css'
 
+import '../node_modules/vant/lib/index.css'
+
 import '../assets/icon/iconfont.css'
 
 import '../assets/css/tailwind.css'
@@ -18,10 +20,12 @@ import '../assets/css/main.css'
 import '../assets/css/main.scss'
 
 import _6f6c098b from '../layouts/default.vue'
+import _a66e0304 from '../layouts/download.vue'
 import _2d232e2f from '../layouts/else.vue'
 import _77ae4182 from '../layouts/mange.vue'
+import _e65b9134 from '../layouts/RegDownload.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_else": sanitizeComponent(_2d232e2f),"_mange": sanitizeComponent(_77ae4182) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_download": sanitizeComponent(_a66e0304),"_else": sanitizeComponent(_2d232e2f),"_mange": sanitizeComponent(_77ae4182),"_RegDownload": sanitizeComponent(_e65b9134) }
 
 export default {
   render (h, props) {

@@ -22,6 +22,7 @@ import nuxt_plugin_pwa_6e032ffa from 'nuxt_plugin_pwa_6e032ffa' // Source: ../pl
 import nuxt_plugin_GlobalComponents_74965de0 from 'nuxt_plugin_GlobalComponents_74965de0' // Source: ../plugins/GlobalComponents (mode: 'client')
 import nuxt_plugin_verification_a985191c from 'nuxt_plugin_verification_a985191c' // Source: ../plugins/verification (mode: 'all')
 import nuxt_plugin_clientCommonFn_4e1f36d6 from 'nuxt_plugin_clientCommonFn_4e1f36d6' // Source: ../plugins/clientCommonFn (mode: 'client')
+import nuxt_plugin_rem_6e03253a from 'nuxt_plugin_rem_6e03253a' // Source: ../plugins/rem (mode: 'client')
 import nuxt_plugin_Calculation_7f113b1c from 'nuxt_plugin_Calculation_7f113b1c' // Source: ../plugins/Calculation (mode: 'all')
 import nuxt_plugin_commonFn_6023762c from 'nuxt_plugin_commonFn_6023762c' // Source: ../plugins/commonFn (mode: 'all')
 import nuxt_plugin_class_fb6f5ffe from 'nuxt_plugin_class_fb6f5ffe' // Source: ../plugins/class (mode: 'all')
@@ -262,6 +263,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_clientCommonFn_4e1f36d6 === 'function') {
     await nuxt_plugin_clientCommonFn_4e1f36d6(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_rem_6e03253a === 'function') {
+    await nuxt_plugin_rem_6e03253a(app.context, inject)
   }
 
   if (typeof nuxt_plugin_Calculation_7f113b1c === 'function') {

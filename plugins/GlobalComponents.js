@@ -4,6 +4,12 @@ import { GridLayout, GridItem } from 'vue-grid-layout'
 import fullscreen from 'vue-fullscreen'
 import ICountUp from 'vue-countup-v2'
 
+import Vant from "vant";
+import 'vant/lib/index.css';
+export default () => {
+  Vue.use(Vant)
+}
+
 Vue.use(fullscreen)
 
 // 二维码

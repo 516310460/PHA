@@ -1,7 +1,7 @@
 exports.ids = [15,14];
 exports.modules = {
 
-/***/ 146:
+/***/ 150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -297,12 +297,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 189:
+/***/ 193:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
+/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(150);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   subscribeBars: function (symbolInfo, resolution, updateCb, uid, resetCache) {

@@ -1,41 +1,41 @@
 exports.ids = [5];
 exports.modules = {
 
-/***/ 218:
+/***/ 225:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(261);
+var content = __webpack_require__(274);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(4).default
 module.exports.__inject__ = function (context) {
   add("59d34d70", content, true, context)
 };
 
 /***/ }),
 
-/***/ 260:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Example05Mirrored_vue_vue_type_style_index_0_id_7971beb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(218);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Example05Mirrored_vue_vue_type_style_index_0_id_7971beb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(225);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Example05Mirrored_vue_vue_type_style_index_0_id_7971beb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Example05Mirrored_vue_vue_type_style_index_0_id_7971beb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Example05Mirrored_vue_vue_type_style_index_0_id_7971beb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Example05Mirrored_vue_vue_type_style_index_0_id_7971beb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 261:
+/***/ 274:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".vue-grid-layout[data-v-7971beb0]{\n  background:#eee\n}\n.vue-grid-item[data-v-7971beb0]:not(.vue-grid-placeholder){\n  background:#ccc;\n  border:1px solid #000\n}\n.vue-grid-item .resizing[data-v-7971beb0]{\n  opacity:.9\n}\n.vue-grid-item .static[data-v-7971beb0]{\n  background:#cce\n}\n.vue-grid-item .text[data-v-7971beb0]{\n  font-size:24px;\n  text-align:center;\n  position:absolute;\n  top:0;\n  bottom:0;\n  left:0;\n  right:0;\n  margin:auto\n}\n.vue-grid-item .no-drag[data-v-7971beb0],.vue-grid-item .text[data-v-7971beb0]{\n  height:100%;\n  width:100%\n}\n.vue-grid-item .minMax[data-v-7971beb0]{\n  font-size:12px\n}\n.vue-grid-item .add[data-v-7971beb0]{\n  cursor:pointer\n}\n.vue-draggable-handle[data-v-7971beb0]{\n  position:absolute;\n  width:20px;\n  height:20px;\n  top:0;\n  left:0;\n  padding:0 8px 8px 0;\n  background-origin:content-box;\n  background-color:#000;\n  box-sizing:border-box;\n  border-radius:10px;\n  cursor:pointer\n}\n.eventsJSON[data-v-7971beb0],.layoutJSON[data-v-7971beb0]{\n  background:#ddd;\n  border:1px solid #000;\n  margin-top:10px;\n  padding:10px\n}\n.eventsJSON[data-v-7971beb0]{\n  height:100px;\n  overflow-y:scroll\n}", ""]);
@@ -46,7 +46,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 346:
+/***/ 361:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61,7 +61,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Example05Mirrored.vue?vue&type=template&id=7971beb0&scoped=true&
 
 // EXTERNAL MODULE: external "vue-grid-layout"
-var external_vue_grid_layout_ = __webpack_require__(138);
+var external_vue_grid_layout_ = __webpack_require__(142);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Example05Mirrored.vue?vue&type=script&lang=js&
 //
@@ -223,7 +223,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(260)
+  var style0 = __webpack_require__(273)
 if (style0.__inject__) style0.__inject__(context)
 
 }

@@ -1,7 +1,7 @@
 exports.ids = [13,14,15];
 exports.modules = {
 
-/***/ 146:
+/***/ 150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -297,12 +297,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 189:
+/***/ 193:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
+/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(150);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   subscribeBars: function (symbolInfo, resolution, updateCb, uid, resetCache) {
@@ -330,13 +330,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 227:
+/***/ 234:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _chart_stream_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(189);
-/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _chart_stream_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(193);
+/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(150);
 
 
 const resolutions = ["1", "5", "10", "15", "30", "60", "120", "240", "360", "720", "4H", "1D", "1W", "1M"];

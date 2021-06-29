@@ -1,7 +1,7 @@
 exports.ids = [27,6,7,8,9,12,13,14,15,17];
 exports.modules = {
 
-/***/ 146:
+/***/ 150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -297,25 +297,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 162:
+/***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(195);
+var content = __webpack_require__(199);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(4).default
 module.exports.__inject__ = function (context) {
   add("32a8b26e", content, true, context)
 };
 
 /***/ }),
 
-/***/ 188:
+/***/ 192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -387,12 +387,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 189:
+/***/ 193:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(146);
+/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(150);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   subscribeBars: function (symbolInfo, resolution, updateCb, uid, resetCache) {
@@ -420,7 +420,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 190:
+/***/ 194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -542,26 +542,26 @@ class dataUpdater {
 
 /***/ }),
 
-/***/ 194:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_depth_chart_vue_vue_type_style_index_0_id_870dfd1a_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(162);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_depth_chart_vue_vue_type_style_index_0_id_870dfd1a_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(166);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_depth_chart_vue_vue_type_style_index_0_id_870dfd1a_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_depth_chart_vue_vue_type_style_index_0_id_870dfd1a_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_depth_chart_vue_vue_type_style_index_0_id_870dfd1a_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_depth_chart_vue_vue_type_style_index_0_id_870dfd1a_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 195:
+/***/ 199:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".bk09[data-v-870dfd1a]{\n  background-color:#09b67d\n}\n.bk10[data-v-870dfd1a]{\n  background:#b8babb!important;\n  background-color:#b8babb!important\n}\n.bk19[data-v-870dfd1a]{\n  background-color:#f7f7f7\n}\n.bk29[data-v-870dfd1a]{\n  background-color:#fff\n}\n.bk34[data-v-870dfd1a]{\n  background-color:#a3acbd\n}\n.bk52[data-v-870dfd1a]{\n  background-color:#333\n}\n.bk62[data-v-870dfd1a]{\n  background-color:#0b1821\n}\n.bk88[data-v-870dfd1a]{\n  background-color:#02ad8f\n}\n.bk112[data-v-870dfd1a]{\n  background-color:#131722\n}\n.bk113[data-v-870dfd1a]{\n  background-color:#02ad8f\n}\n.bk114[data-v-870dfd1a]{\n  background-color:#222e3e\n}\n.bk117[data-v-870dfd1a]{\n  background-color:#08050c\n}\n.bk121[data-v-870dfd1a]{\n  background-color:#13181a\n}\n.bk122[data-v-870dfd1a]{\n  background-color:#162229\n}\n.cl08[data-v-870dfd1a]{\n  color:#aa5369\n}\n.cl09[data-v-870dfd1a]{\n  color:#09b67d\n}\n.cl23[data-v-870dfd1a]{\n  color:#5c5c5c\n}\n.cl24[data-v-870dfd1a]{\n  color:#858585\n}\n.cl25[data-v-870dfd1a]{\n  color:#adadad\n}\n.cl29[data-v-870dfd1a]{\n  color:#fff\n}\n.cl52[data-v-870dfd1a]{\n  color:#333\n}\n.cl75[data-v-870dfd1a]{\n  color:#959595\n}\n.cl77[data-v-870dfd1a]{\n  color:#cd332d\n}\n.cl88[data-v-870dfd1a]{\n  color:#02ad8f\n}\n.cl110[data-v-870dfd1a]{\n  color:#4adb62\n}\n.cl113[data-v-870dfd1a]{\n  color:#02ad8f\n}\n.cl123[data-v-870dfd1a]{\n  color:#c1d3df\n}\n.cl125[data-v-870dfd1a]{\n  color:#707d8f\n}\n.cl127[data-v-870dfd1a]{\n  color:#08b67e\n}\n.cl128[data-v-870dfd1a]{\n  color:#d5742c\n}\n.cl_buy[data-v-870dfd1a]{\n  color:#03bf7b\n}\n.cl_sell[data-v-870dfd1a]{\n  color:#eb4d5c\n}\n.br-cl09[data-v-870dfd1a]{\n  border:1px solid #09b67d\n}\n.br-cl13[data-v-870dfd1a]{\n  border:1px solid #47545c\n}\n.br-cl72[data-v-870dfd1a]{\n  border:1px solid #ededed\n}\n.tl[data-v-870dfd1a]{\n  text-align:left\n}\n.tc[data-v-870dfd1a]{\n  text-align:center\n}\n.tr[data-v-870dfd1a]{\n  text-align:right\n}\n.fl[data-v-870dfd1a]{\n  float:left\n}\n.fr[data-v-870dfd1a]{\n  float:right\n}\n.hover-cl09[data-v-870dfd1a]:hover{\n  cursor:pointer;\n  color:#09b67d\n}\n.chart-layout[data-v-870dfd1a]{\n  position:relative;\n  background:#1e222a\n}\n.chart-layout canvas[data-v-870dfd1a]{\n  position:absolute\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".bk09[data-v-870dfd1a]{\n  background-color:#09b67d\n}\n.bk10[data-v-870dfd1a]{\n  background:#b8babb!important;\n  background-color:#b8babb!important\n}\n.bk19[data-v-870dfd1a]{\n  background-color:#f7f7f7\n}\n.bk29[data-v-870dfd1a]{\n  background-color:#fff\n}\n.bk34[data-v-870dfd1a]{\n  background-color:#a3acbd\n}\n.bk52[data-v-870dfd1a]{\n  background-color:#333\n}\n.bk62[data-v-870dfd1a]{\n  background-color:#0b1821\n}\n.bk88[data-v-870dfd1a]{\n  background-color:#02ad8f\n}\n.bk112[data-v-870dfd1a]{\n  background-color:#131722\n}\n.bk113[data-v-870dfd1a]{\n  background-color:#02ad8f\n}\n.bk114[data-v-870dfd1a]{\n  background-color:#222e3e\n}\n.bk117[data-v-870dfd1a]{\n  background-color:#08050c\n}\n.bk121[data-v-870dfd1a]{\n  background-color:#13181a\n}\n.bk122[data-v-870dfd1a]{\n  background-color:#162229\n}\n.cl08[data-v-870dfd1a]{\n  color:#aa5369\n}\n.cl09[data-v-870dfd1a]{\n  color:#09b67d\n}\n.cl23[data-v-870dfd1a]{\n  color:#5c5c5c\n}\n.cl24[data-v-870dfd1a]{\n  color:#858585\n}\n.cl25[data-v-870dfd1a]{\n  color:#adadad\n}\n.cl29[data-v-870dfd1a]{\n  color:#fff\n}\n.cl52[data-v-870dfd1a]{\n  color:#333\n}\n.cl75[data-v-870dfd1a]{\n  color:#959595\n}\n.cl77[data-v-870dfd1a]{\n  color:#cd332d\n}\n.cl88[data-v-870dfd1a]{\n  color:#02ad8f\n}\n.cl110[data-v-870dfd1a]{\n  color:#4adb62\n}\n.cl113[data-v-870dfd1a]{\n  color:#02ad8f\n}\n.cl123[data-v-870dfd1a]{\n  color:#c1d3df\n}\n.cl125[data-v-870dfd1a]{\n  color:#707d8f\n}\n.cl127[data-v-870dfd1a]{\n  color:#08b67e\n}\n.cl128[data-v-870dfd1a]{\n  color:#d5742c\n}\n.cl_buy[data-v-870dfd1a]{\n  color:#03bf7b\n}\n.cl_sell[data-v-870dfd1a]{\n  color:#eb4d5c\n}\n.br-cl09[data-v-870dfd1a]{\n  border:1px solid #09b67d\n}\n.br-cl13[data-v-870dfd1a]{\n  border:1px solid #47545c\n}\n.br-cl72[data-v-870dfd1a]{\n  border:1px solid #ededed\n}\n.tl[data-v-870dfd1a]{\n  text-align:left\n}\n.tc[data-v-870dfd1a]{\n  text-align:center\n}\n.tr[data-v-870dfd1a]{\n  text-align:right\n}\n.fl[data-v-870dfd1a]{\n  float:left\n}\n.fr[data-v-870dfd1a]{\n  float:right\n}\n.hover-cl09[data-v-870dfd1a]:hover{\n  cursor:pointer;\n  color:#09b67d\n}\n#installPWA[data-v-870dfd1a]{\n  display:none\n}\n.clffffff[data-v-870dfd1a]{\n  color:#fff!important\n}\n.clE7EEFF[data-v-870dfd1a]{\n  color:#e7eeff\n}\n.cl5fe9ce[data-v-870dfd1a]{\n  color:#5fe9ce\n}\n.cl02AD8F[data-v-870dfd1a]{\n  color:#ff7f00!important\n}\n.clCB374E[data-v-870dfd1a]{\n  color:#cb374e\n}\n.cl9FA9C0[data-v-870dfd1a]{\n  color:#9fa9c0\n}\n.cl454545[data-v-870dfd1a]{\n  color:#454545\n}\n.cl868D9A[data-v-870dfd1a]{\n  color:#868d9a\n}\n.cl94EADB[data-v-870dfd1a]{\n  color:#94eadb\n}\n.clC9CED8[data-v-870dfd1a]{\n  color:#c9ced8\n}\n.cl727988[data-v-870dfd1a]{\n  color:#727988\n}\n.clCD7728[data-v-870dfd1a]{\n  color:#cd7728\n}\n.clD7F5F0[data-v-870dfd1a]{\n  color:#d7f5f0\n}\n.cl6A7B98[data-v-870dfd1a]{\n  color:#6a7b98\n}\n.cl98E4DA[data-v-870dfd1a]{\n  color:#98e4da\n}\n.cl3FCFBA[data-v-870dfd1a]{\n  color:#3fcfba\n}\n.clA5A9B0[data-v-870dfd1a]{\n  color:#a5a9b0\n}\n.clC5FAF3[data-v-870dfd1a]{\n  color:#c5faf3\n}\n.cl697080[data-v-870dfd1a]{\n  color:#697080\n}\n.cl534F4F[data-v-870dfd1a]{\n  color:#534f4f\n}\n.clAFB6C3[data-v-870dfd1a]{\n  color:#afb6c3\n}\n.bk0F182D[data-v-870dfd1a]{\n  background:#0f182d\n}\n.bk02AD8F[data-v-870dfd1a]{\n  background:#ff7f00\n}\n.bk0A1121[data-v-870dfd1a]{\n  background:#0a1121\n}\n.bk232F49[data-v-870dfd1a]{\n  background:#232f49\n}\n.bkffffff[data-v-870dfd1a]{\n  background:#fff\n}\n.bk222E4B[data-v-870dfd1a]{\n  background:#222e4b\n}\n.bk101a30[data-v-870dfd1a]{\n  background:#101a30\n}\n.bkf8f8f8[data-v-870dfd1a]{\n  background:#f8f8f8\n}\n.bk2A303C[data-v-870dfd1a]{\n  background:#2a303c\n}\n.bk191D24[data-v-870dfd1a]{\n  background:#fff\n}\n.bk21252F[data-v-870dfd1a]{\n  background:#220a9e\n}\n.bk2E3743[data-v-870dfd1a]{\n  background:#2e3743\n}\n.bk312922[data-v-870dfd1a]{\n  background:#312922\n}\n.bk616A77[data-v-870dfd1a]{\n  background-color:#616a77\n}\n.bk363C4A[data-v-870dfd1a]{\n  background-color:#363c4a\n}\n.bk0070F3[data-v-870dfd1a]{\n  background-color:#0070f3\n}\n.bk868D9A[data-v-870dfd1a]{\n  background-color:#868d9a\n}\n.bk222A37[data-v-870dfd1a]{\n  background-color:#222a37\n}\n.bk15171E[data-v-870dfd1a]{\n  background-color:#15171e\n}\n.bk292E39[data-v-870dfd1a]{\n  background-color:#292e39\n}\n.bk686F82[data-v-870dfd1a]{\n  background-color:#686f82\n}\n.bk343A47[data-v-870dfd1a]{\n  background-color:#343a47\n}\n.bk383E4D[data-v-870dfd1a]{\n  background-color:#383e4d\n}\n.bk303541[data-v-870dfd1a]{\n  background-color:#303541\n}\n.bk0B3D34[data-v-870dfd1a]{\n  background-color:#0b3d34\n}\n.bk2B303D[data-v-870dfd1a]{\n  background-color:#2b303d\n}\n.bk2F3441[data-v-870dfd1a]{\n  background-color:#2f3441\n}\n.bk2F3543[data-v-870dfd1a]{\n  background-color:#2f3543\n}\n.bk373D4A[data-v-870dfd1a]{\n  background-color:#373d4a\n}\n.bk95979D[data-v-870dfd1a]{\n  background-color:#95979d\n}\n.bk253f41[data-v-870dfd1a]{\n  background-color:#253f41\n}\n.bkFDFDFF[data-v-870dfd1a]{\n  background-color:#f7f8fa\n}\n.bkEFF2A3[data-v-870dfd1a]{\n  background-color:#eee\n}\n.bkF5F6FA[data-v-870dfd1a]{\n  background-color:#f5f6fa\n}\n.bkAFB6C3[data-v-870dfd1a]{\n  background-color:#afb6c3\n}\n.bc-868D9A[data-v-870dfd1a]{\n  border-color:#868d9a\n}\n.bc-3A53B8[data-v-870dfd1a]{\n  border-color:#3a53b8\n}\n.bc-1D088B[data-v-870dfd1a]{\n  border-color:#fff\n}\n.bc-02AD8F[data-v-870dfd1a]{\n  border-color:#ff7f00\n}\n.bc-co9FA9C0[data-v-870dfd1a]{\n  border-color:#9fa9c0\n}\n.bc-co0A1121[data-v-870dfd1a]{\n  border-color:#0a1121\n}\n.bc-co121D36[data-v-870dfd1a]{\n  border-color:#121d36\n}\n.bc-co383E4D[data-v-870dfd1a]{\n  border-color:#383e4d\n}\n.bc-co363E4A[data-v-870dfd1a]{\n  border-color:#363e4a\n}\n.bc-co3FCFBA[data-v-870dfd1a]{\n  border-color:#3fcfba\n}\n.bc-co535E6D[data-v-870dfd1a]{\n  border-color:#535e6d\n}\n.bc-co0C0E11[data-v-870dfd1a]{\n  border-color:#0c0e11\n}\n.bc-co373D4A[data-v-870dfd1a]{\n  border-color:#373d4a\n}\n.bc-co02AD8F[data-v-870dfd1a]{\n  border-color:#ff7f00\n}\n.bc-co242936[data-v-870dfd1a]{\n  border-color:#242936\n}\n.bc-null[data-v-870dfd1a]{\n  border-color:transparent\n}\n.cl9CC1FF[data-v-870dfd1a]{\n  color:#9cc1ff\n}\n.cl3A53B8[data-v-870dfd1a]{\n  color:#3a53b8\n}\n.cl487DC6[data-v-870dfd1a]{\n  color:#487dc6\n}\n.cl000f18[data-v-870dfd1a]{\n  color:#000f18\n}\n.cl6272a1[data-v-870dfd1a]{\n  color:#6272a1\n}\n.cl4774f9[data-v-870dfd1a]{\n  color:#4774f9\n}\n.cldce2f2[data-v-870dfd1a]{\n  color:#dce2f2\n}\n.cldbe4fe[data-v-870dfd1a]{\n  color:#dbe4fe\n}\n.cl324170[data-v-870dfd1a]{\n  color:#324170\n}\n.cl93a4da[data-v-870dfd1a]{\n  color:#93a4da\n}\n.cl67d852[data-v-870dfd1a]{\n  color:#67d852\n}\n.cl606d82[data-v-870dfd1a]{\n  color:#606d82\n}\n.cl17BC95[data-v-870dfd1a]{\n  color:#17bc95\n}\n.clnull[data-v-870dfd1a]{\n  color:transparent\n}\n.bk59[data-v-870dfd1a]{\n  background:#a9b3b8!important\n}\n.bkCB374E[data-v-870dfd1a]{\n  background:#cb374e\n}\n.bk67d852[data-v-870dfd1a]{\n  background:#67d852\n}\n.bk1c3385[data-v-870dfd1a]{\n  background:#1c3385\n}\n.bk3A53B8[data-v-870dfd1a]{\n  background:#3a53b8\n}\n.bk1D088B[data-v-870dfd1a]{\n  background:#fff\n}\n.bk000f18[data-v-870dfd1a]{\n  background:#000f18\n}\n.bk1e2643[data-v-870dfd1a]{\n  background:#1e2643\n}\n.bk151b35[data-v-870dfd1a]{\n  background:#151b35\n}\n.bk17BC95[data-v-870dfd1a]{\n  background:#17bc95\n}\n.bknull[data-v-870dfd1a]{\n  background:transparent\n}\n.br-cl67d852[data-v-870dfd1a]{\n  border:1px solid #67d852\n}\n.chart-layout[data-v-870dfd1a]{\n  position:relative;\n  background:#1e222a\n}\n.chart-layout canvas[data-v-870dfd1a]{\n  position:absolute\n}", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
@@ -569,13 +569,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 227:
+/***/ 234:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _chart_stream_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(189);
-/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
+/* harmony import */ var _chart_stream_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(193);
+/* harmony import */ var _chart_provider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(150);
 
 
 const resolutions = ["1", "5", "10", "15", "30", "60", "120", "240", "360", "720", "4H", "1D", "1W", "1M"];
@@ -695,7 +695,7 @@ const resolutions = ["1", "5", "10", "15", "30", "60", "120", "240", "360", "720
 
 /***/ }),
 
-/***/ 228:
+/***/ 235:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -944,7 +944,7 @@ function e(t, o) {
 
 /***/ }),
 
-/***/ 229:
+/***/ 236:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1072,12 +1072,12 @@ class socket {
 
 /***/ }),
 
-/***/ 230:
+/***/ 237:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _dataUpdater__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(190);
+/* harmony import */ var _dataUpdater__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(194);
 /**
  * JS API
  */
@@ -1300,25 +1300,25 @@ class datafeeds {
 
 /***/ }),
 
-/***/ 231:
+/***/ 238:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(282);
+var content = __webpack_require__(295);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(4).default
 module.exports.__inject__ = function (context) {
   add("70a82bb6", content, true, context)
 };
 
 /***/ }),
 
-/***/ 245:
+/***/ 252:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1333,7 +1333,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/HashRate/depth-chart.vue?vue&type=template&id=870dfd1a&scoped=true&
 
 // EXTERNAL MODULE: ./components/HashRate/js/utils.js
-var utils = __webpack_require__(188);
+var utils = __webpack_require__(192);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/HashRate/depth-chart.vue?vue&type=script&lang=js&
 //
@@ -2085,7 +2085,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(194)
+  var style0 = __webpack_require__(198)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -2107,38 +2107,38 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 281:
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tradeView_vue_vue_type_style_index_0_id_77f374d8_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(231);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tradeView_vue_vue_type_style_index_0_id_77f374d8_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(238);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tradeView_vue_vue_type_style_index_0_id_77f374d8_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tradeView_vue_vue_type_style_index_0_id_77f374d8_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tradeView_vue_vue_type_style_index_0_id_77f374d8_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_sass_resources_loader_lib_loader_js_ref_7_oneOf_1_4_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tradeView_vue_vue_type_style_index_0_id_77f374d8_scoped_true_rel_stylesheet_2Fscss_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 282:
+/***/ 295:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(13);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(283);
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(284);
-var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(285);
-var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(286);
-var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(287);
-var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(288);
-var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(289);
-var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(290);
-var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(291);
-var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(292);
-var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(293);
-var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(294);
-var ___CSS_LOADER_URL_IMPORT_12___ = __webpack_require__(295);
-var ___CSS_LOADER_URL_IMPORT_13___ = __webpack_require__(296);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(14);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(296);
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(297);
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(298);
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(299);
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(300);
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(301);
+var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(302);
+var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(303);
+var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(304);
+var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(305);
+var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(306);
+var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(307);
+var ___CSS_LOADER_URL_IMPORT_12___ = __webpack_require__(308);
+var ___CSS_LOADER_URL_IMPORT_13___ = __webpack_require__(309);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
@@ -2155,7 +2155,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS
 var ___CSS_LOADER_URL_REPLACEMENT_12___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_12___);
 var ___CSS_LOADER_URL_REPLACEMENT_13___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_13___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".bk09[data-v-77f374d8]{\n  background-color:#09b67d\n}\n.bk10[data-v-77f374d8]{\n  background:#b8babb!important;\n  background-color:#b8babb!important\n}\n.bk19[data-v-77f374d8]{\n  background-color:#f7f7f7\n}\n.bk29[data-v-77f374d8]{\n  background-color:#fff\n}\n.bk34[data-v-77f374d8]{\n  background-color:#a3acbd\n}\n.bk52[data-v-77f374d8]{\n  background-color:#333\n}\n.bk62[data-v-77f374d8]{\n  background-color:#0b1821\n}\n.bk88[data-v-77f374d8]{\n  background-color:#02ad8f\n}\n.bk112[data-v-77f374d8]{\n  background-color:#131722\n}\n.bk113[data-v-77f374d8]{\n  background-color:#02ad8f\n}\n.bk114[data-v-77f374d8]{\n  background-color:#222e3e\n}\n.bk117[data-v-77f374d8]{\n  background-color:#08050c\n}\n.bk121[data-v-77f374d8]{\n  background-color:#13181a\n}\n.bk122[data-v-77f374d8]{\n  background-color:#162229\n}\n.cl08[data-v-77f374d8]{\n  color:#aa5369\n}\n.cl09[data-v-77f374d8]{\n  color:#09b67d\n}\n.cl23[data-v-77f374d8]{\n  color:#5c5c5c\n}\n.cl24[data-v-77f374d8]{\n  color:#858585\n}\n.cl25[data-v-77f374d8]{\n  color:#adadad\n}\n.cl29[data-v-77f374d8]{\n  color:#fff\n}\n.cl52[data-v-77f374d8]{\n  color:#333\n}\n.cl75[data-v-77f374d8]{\n  color:#959595\n}\n.cl77[data-v-77f374d8]{\n  color:#cd332d\n}\n.cl88[data-v-77f374d8]{\n  color:#02ad8f\n}\n.cl110[data-v-77f374d8]{\n  color:#4adb62\n}\n.cl113[data-v-77f374d8]{\n  color:#02ad8f\n}\n.cl123[data-v-77f374d8]{\n  color:#c1d3df\n}\n.cl125[data-v-77f374d8]{\n  color:#707d8f\n}\n.cl127[data-v-77f374d8]{\n  color:#08b67e\n}\n.cl128[data-v-77f374d8]{\n  color:#d5742c\n}\n.cl_buy[data-v-77f374d8]{\n  color:#03bf7b\n}\n.cl_sell[data-v-77f374d8]{\n  color:#eb4d5c\n}\n.br-cl09[data-v-77f374d8]{\n  border:1px solid #09b67d\n}\n.br-cl13[data-v-77f374d8]{\n  border:1px solid #47545c\n}\n.br-cl72[data-v-77f374d8]{\n  border:1px solid #ededed\n}\n.tl[data-v-77f374d8]{\n  text-align:left\n}\n.tc[data-v-77f374d8]{\n  text-align:center\n}\n.tr[data-v-77f374d8]{\n  text-align:right\n}\n.fl[data-v-77f374d8]{\n  float:left\n}\n.fr[data-v-77f374d8]{\n  float:right\n}\n.hover-cl09[data-v-77f374d8]:hover{\n  cursor:pointer;\n  color:#09b67d\n}\n.isOpenState[data-v-77f374d8]{\n  width:100%;\n  position:absolute;\n  height:100%;\n  top:0;\n  left:0;\n  z-index:999;\n  background:rgba(0,0,0,.8);\n  display:flex;\n  justify-content:center;\n  align-items:center\n}\n.isOpenState .isOpenStateText[data-v-77f374d8]{\n  line-height:100%\n}\n.el-tooltip__popper.is-dark.chart_tooltip[data-v-77f374d8]{\n  margin-top:0;\n  background:#292e39\n}\n.el-tooltip__popper.is-dark.chart_tooltip .popper__arrow[data-v-77f374d8],.el-tooltip__popper.is-dark.chart_tooltip .popper__arrow[data-v-77f374d8]:after{\n  border-bottom-color:#292e39\n}\n.plugin_interval_minute_tip[data-v-77f374d8]{\n  position:relative;\n  cursor:pointer;\n  height:30px;\n  line-height:30px;\n  display:inline-block;\n  text-align:center;\n  padding-right:12px\n}\n.buybit-chart-plugin .plugin_interval .plugin_interval_tip.active[data-v-77f374d8],.buybit-chart-plugin .plugin_interval .plugin_interval_tip[data-v-77f374d8]:hover,.plugin_interval_minute_tip.active[data-v-77f374d8],.plugin_interval_minute_tip[data-v-77f374d8]:hover,.plugin_interval_tip.active[data-v-77f374d8]{\n  color:#02ad8f;\n  background-color:#292e39\n}\n.plugin_interval_minute_tip.active[data-v-77f374d8]:after,.plugin_interval_minute_tip[data-v-77f374d8]:after{\n  content:\"\";\n  top:50%;\n  transform:translateY(-50%);\n  display:inline-block;\n  position:absolute;\n  width:6px;\n  height:4px;\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:cover;\n  right:0\n}\n.plugin_interval_minute_tip[data-v-77f374d8]:hover:after,.plugin_interval_tip.active .plugin_interval_minute_tip[data-v-77f374d8]:after{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ")\n}\n.plugin_interval_minute[data-v-77f374d8]{\n  position:relative\n}\n.plugin_interval_minute_content[data-v-77f374d8]{\n  position:absolute;\n  font-size:12px;\n  color:#fff;\n  left:0;\n  line-height:36px;\n  background-color:#292e39;\n  width:80px;\n  z-index:2;\n  top:30px;\n  box-shadow:0 2px 6px 0 rgba(0,0,0,.15);\n  border-radius:2px\n}\n.plugin_interval_minute_content li[data-v-77f374d8]{\n  padding:0 10px;\n  cursor:pointer\n}\n.plugin_interval_minute_content li.active[data-v-77f374d8],.plugin_interval_minute_content li[data-v-77f374d8]:hover{\n  background-color:#333946\n}\n.buybit-chart[data-v-77f374d8]{\n  height:100%;\n  position:relative;\n  display:flex;\n  flex-direction:column\n}\n.buybit-chart.fullscreen[data-v-77f374d8]{\n  background-color:#131722!important\n}\n.buybit-chart.fullscreen .coinpool-chart-content[data-v-77f374d8]{\n  width:100%;\n  height:100%;\n  position:absolute;\n  top:0\n}\n.buybit-chart-plugin[data-v-77f374d8]{\n  font-size:12px;\n  position:relative;\n  z-index:2;\n  border-bottom:1px solid #292e39;\n  background-color:#1e222a\n}\n.buybit-chart-plugin .plugin_set_button[data-v-77f374d8]{\n  float:left;\n  width:24px;\n  height:30px;\n  display:inline-block;\n  background-repeat:no-repeat;\n  background-size:14px;\n  background-position:50%;\n  margin-left:10px;\n  cursor:pointer\n}\n.buybit-chart-plugin .set_button[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ")\n}\n.buybit-chart-plugin .set_button[data-v-77f374d8]:hover{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ")\n}\n.buybit-chart-plugin .index_button[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ")\n}\n.buybit-chart-plugin .index_button[data-v-77f374d8]:hover{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ")\n}\n.buybit-chart-plugin .plugin_major_button[data-v-77f374d8]{\n  float:left;\n  display:inline-block;\n  width:36px;\n  height:30px;\n  border-right:1px solid #292e39;\n  border-left:1px solid #292e39;\n  background-size:16px;\n  background-repeat:no-repeat;\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n  background-position:50%;\n  cursor:pointer\n}\n.buybit-chart-plugin .plugin_major_button[data-v-77f374d8]:hover{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ")\n}\n.chart-content[data-v-77f374d8]{\n  position:relative;\n  width:100%;\n  flex:1\n}\n.coinpool-chart-content[data-v-77f374d8]{\n  background:#1e222a;\n  height:100%;\n  position:absolute;\n  width:100%;\n  top:0;\n  left:0;\n  z-index:0\n}\n.coinpool-chart-content div[data-v-77f374d8]{\n  width:100%;\n  height:100%\n}\n.coinpool-chart-content.active[data-v-77f374d8]{\n  z-index:1\n}\n.buybit-chart-plugin .plugin_interval[data-v-77f374d8]{\n  color:#8790a1\n}\n.buybit-chart-plugin .plugin_interval .plugin_interval_tip[data-v-77f374d8]{\n  cursor:pointer;\n  height:30px;\n  line-height:30px;\n  display:inline-block;\n  padding:0 10px;\n  float:left\n}\n.buybit-chart-plugin .plugin_full[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n  background-size:16px;\n  background-repeat:no-repeat;\n  background-position:50%;\n  display:inline-block;\n  float:left;\n  width:36px;\n  height:30px;\n  cursor:pointer\n}\n.fullscreen .plugin_full[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav[data-v-77f374d8]{\n  color:#c5c3dd;\n  display:inline-block;\n  position:relative;\n  float:left\n}\n.buybit-chart-plugin .plugin_chart_nav .depth[data-v-77f374d8],.buybit-chart-plugin .plugin_chart_nav .trading[data-v-77f374d8]{\n  float:left;\n  background-size:16px 16px;\n  background-repeat:no-repeat;\n  background-position:50%;\n  display:inline-block;\n  width:28px;\n  height:30px\n}\n.buybit-chart-plugin .plugin_chart_nav .trading[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_10___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav .trading.active[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_11___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav .depth[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_12___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav .depth.active[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_13___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav span[data-v-77f374d8]{\n  text-align:center;\n  padding:0 10px;\n  display:inline-block;\n  cursor:pointer;\n  height:30px\n}\n.buybit-chart-plugin .plugin_chart_nav span.active[data-v-77f374d8]{\n  background-color:#292e39;\n  color:#8790a1\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".bk09[data-v-77f374d8]{\n  background-color:#09b67d\n}\n.bk10[data-v-77f374d8]{\n  background:#b8babb!important;\n  background-color:#b8babb!important\n}\n.bk19[data-v-77f374d8]{\n  background-color:#f7f7f7\n}\n.bk29[data-v-77f374d8]{\n  background-color:#fff\n}\n.bk34[data-v-77f374d8]{\n  background-color:#a3acbd\n}\n.bk52[data-v-77f374d8]{\n  background-color:#333\n}\n.bk62[data-v-77f374d8]{\n  background-color:#0b1821\n}\n.bk88[data-v-77f374d8]{\n  background-color:#02ad8f\n}\n.bk112[data-v-77f374d8]{\n  background-color:#131722\n}\n.bk113[data-v-77f374d8]{\n  background-color:#02ad8f\n}\n.bk114[data-v-77f374d8]{\n  background-color:#222e3e\n}\n.bk117[data-v-77f374d8]{\n  background-color:#08050c\n}\n.bk121[data-v-77f374d8]{\n  background-color:#13181a\n}\n.bk122[data-v-77f374d8]{\n  background-color:#162229\n}\n.cl08[data-v-77f374d8]{\n  color:#aa5369\n}\n.cl09[data-v-77f374d8]{\n  color:#09b67d\n}\n.cl23[data-v-77f374d8]{\n  color:#5c5c5c\n}\n.cl24[data-v-77f374d8]{\n  color:#858585\n}\n.cl25[data-v-77f374d8]{\n  color:#adadad\n}\n.cl29[data-v-77f374d8]{\n  color:#fff\n}\n.cl52[data-v-77f374d8]{\n  color:#333\n}\n.cl75[data-v-77f374d8]{\n  color:#959595\n}\n.cl77[data-v-77f374d8]{\n  color:#cd332d\n}\n.cl88[data-v-77f374d8]{\n  color:#02ad8f\n}\n.cl110[data-v-77f374d8]{\n  color:#4adb62\n}\n.cl113[data-v-77f374d8]{\n  color:#02ad8f\n}\n.cl123[data-v-77f374d8]{\n  color:#c1d3df\n}\n.cl125[data-v-77f374d8]{\n  color:#707d8f\n}\n.cl127[data-v-77f374d8]{\n  color:#08b67e\n}\n.cl128[data-v-77f374d8]{\n  color:#d5742c\n}\n.cl_buy[data-v-77f374d8]{\n  color:#03bf7b\n}\n.cl_sell[data-v-77f374d8]{\n  color:#eb4d5c\n}\n.br-cl09[data-v-77f374d8]{\n  border:1px solid #09b67d\n}\n.br-cl13[data-v-77f374d8]{\n  border:1px solid #47545c\n}\n.br-cl72[data-v-77f374d8]{\n  border:1px solid #ededed\n}\n.tl[data-v-77f374d8]{\n  text-align:left\n}\n.tc[data-v-77f374d8]{\n  text-align:center\n}\n.tr[data-v-77f374d8]{\n  text-align:right\n}\n.fl[data-v-77f374d8]{\n  float:left\n}\n.fr[data-v-77f374d8]{\n  float:right\n}\n.hover-cl09[data-v-77f374d8]:hover{\n  cursor:pointer;\n  color:#09b67d\n}\n#installPWA[data-v-77f374d8]{\n  display:none\n}\n.clffffff[data-v-77f374d8]{\n  color:#fff!important\n}\n.clE7EEFF[data-v-77f374d8]{\n  color:#e7eeff\n}\n.cl5fe9ce[data-v-77f374d8]{\n  color:#5fe9ce\n}\n.cl02AD8F[data-v-77f374d8]{\n  color:#ff7f00!important\n}\n.clCB374E[data-v-77f374d8]{\n  color:#cb374e\n}\n.cl9FA9C0[data-v-77f374d8]{\n  color:#9fa9c0\n}\n.cl454545[data-v-77f374d8]{\n  color:#454545\n}\n.cl868D9A[data-v-77f374d8]{\n  color:#868d9a\n}\n.cl94EADB[data-v-77f374d8]{\n  color:#94eadb\n}\n.clC9CED8[data-v-77f374d8]{\n  color:#c9ced8\n}\n.cl727988[data-v-77f374d8]{\n  color:#727988\n}\n.clCD7728[data-v-77f374d8]{\n  color:#cd7728\n}\n.clD7F5F0[data-v-77f374d8]{\n  color:#d7f5f0\n}\n.cl6A7B98[data-v-77f374d8]{\n  color:#6a7b98\n}\n.cl98E4DA[data-v-77f374d8]{\n  color:#98e4da\n}\n.cl3FCFBA[data-v-77f374d8]{\n  color:#3fcfba\n}\n.clA5A9B0[data-v-77f374d8]{\n  color:#a5a9b0\n}\n.clC5FAF3[data-v-77f374d8]{\n  color:#c5faf3\n}\n.cl697080[data-v-77f374d8]{\n  color:#697080\n}\n.cl534F4F[data-v-77f374d8]{\n  color:#534f4f\n}\n.clAFB6C3[data-v-77f374d8]{\n  color:#afb6c3\n}\n.bk0F182D[data-v-77f374d8]{\n  background:#0f182d\n}\n.bk02AD8F[data-v-77f374d8]{\n  background:#ff7f00\n}\n.bk0A1121[data-v-77f374d8]{\n  background:#0a1121\n}\n.bk232F49[data-v-77f374d8]{\n  background:#232f49\n}\n.bkffffff[data-v-77f374d8]{\n  background:#fff\n}\n.bk222E4B[data-v-77f374d8]{\n  background:#222e4b\n}\n.bk101a30[data-v-77f374d8]{\n  background:#101a30\n}\n.bkf8f8f8[data-v-77f374d8]{\n  background:#f8f8f8\n}\n.bk2A303C[data-v-77f374d8]{\n  background:#2a303c\n}\n.bk191D24[data-v-77f374d8]{\n  background:#fff\n}\n.bk21252F[data-v-77f374d8]{\n  background:#220a9e\n}\n.bk2E3743[data-v-77f374d8]{\n  background:#2e3743\n}\n.bk312922[data-v-77f374d8]{\n  background:#312922\n}\n.bk616A77[data-v-77f374d8]{\n  background-color:#616a77\n}\n.bk363C4A[data-v-77f374d8]{\n  background-color:#363c4a\n}\n.bk0070F3[data-v-77f374d8]{\n  background-color:#0070f3\n}\n.bk868D9A[data-v-77f374d8]{\n  background-color:#868d9a\n}\n.bk222A37[data-v-77f374d8]{\n  background-color:#222a37\n}\n.bk15171E[data-v-77f374d8]{\n  background-color:#15171e\n}\n.bk292E39[data-v-77f374d8]{\n  background-color:#292e39\n}\n.bk686F82[data-v-77f374d8]{\n  background-color:#686f82\n}\n.bk343A47[data-v-77f374d8]{\n  background-color:#343a47\n}\n.bk383E4D[data-v-77f374d8]{\n  background-color:#383e4d\n}\n.bk303541[data-v-77f374d8]{\n  background-color:#303541\n}\n.bk0B3D34[data-v-77f374d8]{\n  background-color:#0b3d34\n}\n.bk2B303D[data-v-77f374d8]{\n  background-color:#2b303d\n}\n.bk2F3441[data-v-77f374d8]{\n  background-color:#2f3441\n}\n.bk2F3543[data-v-77f374d8]{\n  background-color:#2f3543\n}\n.bk373D4A[data-v-77f374d8]{\n  background-color:#373d4a\n}\n.bk95979D[data-v-77f374d8]{\n  background-color:#95979d\n}\n.bk253f41[data-v-77f374d8]{\n  background-color:#253f41\n}\n.bkFDFDFF[data-v-77f374d8]{\n  background-color:#f7f8fa\n}\n.bkEFF2A3[data-v-77f374d8]{\n  background-color:#eee\n}\n.bkF5F6FA[data-v-77f374d8]{\n  background-color:#f5f6fa\n}\n.bkAFB6C3[data-v-77f374d8]{\n  background-color:#afb6c3\n}\n.bc-868D9A[data-v-77f374d8]{\n  border-color:#868d9a\n}\n.bc-3A53B8[data-v-77f374d8]{\n  border-color:#3a53b8\n}\n.bc-1D088B[data-v-77f374d8]{\n  border-color:#fff\n}\n.bc-02AD8F[data-v-77f374d8]{\n  border-color:#ff7f00\n}\n.bc-co9FA9C0[data-v-77f374d8]{\n  border-color:#9fa9c0\n}\n.bc-co0A1121[data-v-77f374d8]{\n  border-color:#0a1121\n}\n.bc-co121D36[data-v-77f374d8]{\n  border-color:#121d36\n}\n.bc-co383E4D[data-v-77f374d8]{\n  border-color:#383e4d\n}\n.bc-co363E4A[data-v-77f374d8]{\n  border-color:#363e4a\n}\n.bc-co3FCFBA[data-v-77f374d8]{\n  border-color:#3fcfba\n}\n.bc-co535E6D[data-v-77f374d8]{\n  border-color:#535e6d\n}\n.bc-co0C0E11[data-v-77f374d8]{\n  border-color:#0c0e11\n}\n.bc-co373D4A[data-v-77f374d8]{\n  border-color:#373d4a\n}\n.bc-co02AD8F[data-v-77f374d8]{\n  border-color:#ff7f00\n}\n.bc-co242936[data-v-77f374d8]{\n  border-color:#242936\n}\n.bc-null[data-v-77f374d8]{\n  border-color:transparent\n}\n.cl9CC1FF[data-v-77f374d8]{\n  color:#9cc1ff\n}\n.cl3A53B8[data-v-77f374d8]{\n  color:#3a53b8\n}\n.cl487DC6[data-v-77f374d8]{\n  color:#487dc6\n}\n.cl000f18[data-v-77f374d8]{\n  color:#000f18\n}\n.cl6272a1[data-v-77f374d8]{\n  color:#6272a1\n}\n.cl4774f9[data-v-77f374d8]{\n  color:#4774f9\n}\n.cldce2f2[data-v-77f374d8]{\n  color:#dce2f2\n}\n.cldbe4fe[data-v-77f374d8]{\n  color:#dbe4fe\n}\n.cl324170[data-v-77f374d8]{\n  color:#324170\n}\n.cl93a4da[data-v-77f374d8]{\n  color:#93a4da\n}\n.cl67d852[data-v-77f374d8]{\n  color:#67d852\n}\n.cl606d82[data-v-77f374d8]{\n  color:#606d82\n}\n.cl17BC95[data-v-77f374d8]{\n  color:#17bc95\n}\n.clnull[data-v-77f374d8]{\n  color:transparent\n}\n.bk59[data-v-77f374d8]{\n  background:#a9b3b8!important\n}\n.bkCB374E[data-v-77f374d8]{\n  background:#cb374e\n}\n.bk67d852[data-v-77f374d8]{\n  background:#67d852\n}\n.bk1c3385[data-v-77f374d8]{\n  background:#1c3385\n}\n.bk3A53B8[data-v-77f374d8]{\n  background:#3a53b8\n}\n.bk1D088B[data-v-77f374d8]{\n  background:#fff\n}\n.bk000f18[data-v-77f374d8]{\n  background:#000f18\n}\n.bk1e2643[data-v-77f374d8]{\n  background:#1e2643\n}\n.bk151b35[data-v-77f374d8]{\n  background:#151b35\n}\n.bk17BC95[data-v-77f374d8]{\n  background:#17bc95\n}\n.bknull[data-v-77f374d8]{\n  background:transparent\n}\n.br-cl67d852[data-v-77f374d8]{\n  border:1px solid #67d852\n}\n.isOpenState[data-v-77f374d8]{\n  width:100%;\n  position:absolute;\n  height:100%;\n  top:0;\n  left:0;\n  z-index:999;\n  background:rgba(0,0,0,.8);\n  display:flex;\n  justify-content:center;\n  align-items:center\n}\n.isOpenState .isOpenStateText[data-v-77f374d8]{\n  line-height:100%\n}\n.el-tooltip__popper.is-dark.chart_tooltip[data-v-77f374d8]{\n  margin-top:0;\n  background:#292e39\n}\n.el-tooltip__popper.is-dark.chart_tooltip .popper__arrow[data-v-77f374d8],.el-tooltip__popper.is-dark.chart_tooltip .popper__arrow[data-v-77f374d8]:after{\n  border-bottom-color:#292e39\n}\n.plugin_interval_minute_tip[data-v-77f374d8]{\n  position:relative;\n  cursor:pointer;\n  height:30px;\n  line-height:30px;\n  display:inline-block;\n  text-align:center;\n  padding-right:12px\n}\n.buybit-chart-plugin .plugin_interval .plugin_interval_tip.active[data-v-77f374d8],.buybit-chart-plugin .plugin_interval .plugin_interval_tip[data-v-77f374d8]:hover,.plugin_interval_minute_tip.active[data-v-77f374d8],.plugin_interval_minute_tip[data-v-77f374d8]:hover,.plugin_interval_tip.active[data-v-77f374d8]{\n  color:#02ad8f;\n  background-color:#292e39\n}\n.plugin_interval_minute_tip.active[data-v-77f374d8]:after,.plugin_interval_minute_tip[data-v-77f374d8]:after{\n  content:\"\";\n  top:50%;\n  transform:translateY(-50%);\n  display:inline-block;\n  position:absolute;\n  width:6px;\n  height:4px;\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:cover;\n  right:0\n}\n.plugin_interval_minute_tip[data-v-77f374d8]:hover:after,.plugin_interval_tip.active .plugin_interval_minute_tip[data-v-77f374d8]:after{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ")\n}\n.plugin_interval_minute[data-v-77f374d8]{\n  position:relative\n}\n.plugin_interval_minute_content[data-v-77f374d8]{\n  position:absolute;\n  font-size:12px;\n  color:#fff;\n  left:0;\n  line-height:36px;\n  background-color:#292e39;\n  width:80px;\n  z-index:2;\n  top:30px;\n  box-shadow:0 2px 6px 0 rgba(0,0,0,.15);\n  border-radius:2px\n}\n.plugin_interval_minute_content li[data-v-77f374d8]{\n  padding:0 10px;\n  cursor:pointer\n}\n.plugin_interval_minute_content li.active[data-v-77f374d8],.plugin_interval_minute_content li[data-v-77f374d8]:hover{\n  background-color:#333946\n}\n.buybit-chart[data-v-77f374d8]{\n  height:100%;\n  position:relative;\n  display:flex;\n  flex-direction:column\n}\n.buybit-chart.fullscreen[data-v-77f374d8]{\n  background-color:#131722!important\n}\n.buybit-chart.fullscreen .coinpool-chart-content[data-v-77f374d8]{\n  width:100%;\n  height:100%;\n  position:absolute;\n  top:0\n}\n.buybit-chart-plugin[data-v-77f374d8]{\n  font-size:12px;\n  position:relative;\n  z-index:2;\n  border-bottom:1px solid #292e39;\n  background-color:#1e222a\n}\n.buybit-chart-plugin .plugin_set_button[data-v-77f374d8]{\n  float:left;\n  width:24px;\n  height:30px;\n  display:inline-block;\n  background-repeat:no-repeat;\n  background-size:14px;\n  background-position:50%;\n  margin-left:10px;\n  cursor:pointer\n}\n.buybit-chart-plugin .set_button[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ")\n}\n.buybit-chart-plugin .set_button[data-v-77f374d8]:hover{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ")\n}\n.buybit-chart-plugin .index_button[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ")\n}\n.buybit-chart-plugin .index_button[data-v-77f374d8]:hover{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ")\n}\n.buybit-chart-plugin .plugin_major_button[data-v-77f374d8]{\n  float:left;\n  display:inline-block;\n  width:36px;\n  height:30px;\n  border-right:1px solid #292e39;\n  border-left:1px solid #292e39;\n  background-size:16px;\n  background-repeat:no-repeat;\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n  background-position:50%;\n  cursor:pointer\n}\n.buybit-chart-plugin .plugin_major_button[data-v-77f374d8]:hover{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ")\n}\n.chart-content[data-v-77f374d8]{\n  position:relative;\n  width:100%;\n  flex:1\n}\n.coinpool-chart-content[data-v-77f374d8]{\n  background:#1e222a;\n  height:100%;\n  position:absolute;\n  width:100%;\n  top:0;\n  left:0;\n  z-index:0\n}\n.coinpool-chart-content div[data-v-77f374d8]{\n  width:100%;\n  height:100%\n}\n.coinpool-chart-content.active[data-v-77f374d8]{\n  z-index:1\n}\n.buybit-chart-plugin .plugin_interval[data-v-77f374d8]{\n  color:#8790a1\n}\n.buybit-chart-plugin .plugin_interval .plugin_interval_tip[data-v-77f374d8]{\n  cursor:pointer;\n  height:30px;\n  line-height:30px;\n  display:inline-block;\n  padding:0 10px;\n  float:left\n}\n.buybit-chart-plugin .plugin_full[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n  background-size:16px;\n  background-repeat:no-repeat;\n  background-position:50%;\n  display:inline-block;\n  float:left;\n  width:36px;\n  height:30px;\n  cursor:pointer\n}\n.fullscreen .plugin_full[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav[data-v-77f374d8]{\n  color:#c5c3dd;\n  display:inline-block;\n  position:relative;\n  float:left\n}\n.buybit-chart-plugin .plugin_chart_nav .depth[data-v-77f374d8],.buybit-chart-plugin .plugin_chart_nav .trading[data-v-77f374d8]{\n  float:left;\n  background-size:16px 16px;\n  background-repeat:no-repeat;\n  background-position:50%;\n  display:inline-block;\n  width:28px;\n  height:30px\n}\n.buybit-chart-plugin .plugin_chart_nav .trading[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_10___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav .trading.active[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_11___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav .depth[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_12___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav .depth.active[data-v-77f374d8]{\n  background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_13___ + ")\n}\n.buybit-chart-plugin .plugin_chart_nav span[data-v-77f374d8]{\n  text-align:center;\n  padding:0 10px;\n  display:inline-block;\n  cursor:pointer;\n  height:30px\n}\n.buybit-chart-plugin .plugin_chart_nav span.active[data-v-77f374d8]{\n  background-color:#292e39;\n  color:#8790a1\n}", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
@@ -2163,105 +2163,105 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 283:
+/***/ 296:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "40ebb29686eca88f80451fbab6fb4045.svg";
 
 /***/ }),
 
-/***/ 284:
+/***/ 297:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "be8a71d645de4ac565b6a014c8be7d49.svg";
 
 /***/ }),
 
-/***/ 285:
+/***/ 298:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "21c8718b41fcd05a544b193a25c57bd1.svg";
 
 /***/ }),
 
-/***/ 286:
+/***/ 299:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "e285b2d60e4731f41dd7b8275eb41173.svg";
 
 /***/ }),
 
-/***/ 287:
+/***/ 300:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "4198c87508bed984aa72c49c56573a14.svg";
 
 /***/ }),
 
-/***/ 288:
+/***/ 301:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "a2d5580588def96d424839a8a1816067.svg";
 
 /***/ }),
 
-/***/ 289:
+/***/ 302:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "b82b1a125050f20e04375f906cb74ae1.svg";
 
 /***/ }),
 
-/***/ 290:
+/***/ 303:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "7f7e27e7c12222309743702583be1173.svg";
 
 /***/ }),
 
-/***/ 291:
+/***/ 304:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "a7b220093620e64d85ba01210501e2a7.svg";
 
 /***/ }),
 
-/***/ 292:
+/***/ 305:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "32bd13d784ad93d1ac4d8e27aa44debe.svg";
 
 /***/ }),
 
-/***/ 293:
+/***/ 306:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5b704bcf14874434cb15ec4b39f84d4e.svg";
 
 /***/ }),
 
-/***/ 294:
+/***/ 307:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "6cd99eced30a0d84fcbcb30a3f711b54.svg";
 
 /***/ }),
 
-/***/ 295:
+/***/ 308:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "917ed719cd506e7e8d87e04774f72b0e.svg";
 
 /***/ }),
 
-/***/ 296:
+/***/ 309:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "6e2da2d1818ef3d927ee4891353605c8.svg";
 
 /***/ }),
 
-/***/ 340:
+/***/ 353:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2276,29 +2276,29 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/HashRate/tradeView.vue?vue&type=template&id=77f374d8&scoped=true&
 
 // EXTERNAL MODULE: external "pako"
-var external_pako_ = __webpack_require__(139);
+var external_pako_ = __webpack_require__(143);
 
 // EXTERNAL MODULE: ./components/HashRate/depth-chart.vue + 4 modules
-var depth_chart = __webpack_require__(245);
+var depth_chart = __webpack_require__(252);
 
 // EXTERNAL MODULE: ./components/HashRate/js/chart-feed.js
-var chart_feed = __webpack_require__(227);
+var chart_feed = __webpack_require__(234);
 
 // EXTERNAL MODULE: ./components/HashRate/js/chart-provider.js
-var chart_provider = __webpack_require__(146);
+var chart_provider = __webpack_require__(150);
 
 // EXTERNAL MODULE: external "moment-timezone"
-var external_moment_timezone_ = __webpack_require__(140);
+var external_moment_timezone_ = __webpack_require__(144);
 var external_moment_timezone_default = /*#__PURE__*/__webpack_require__.n(external_moment_timezone_);
 
 // EXTERNAL MODULE: ./components/HashRate/js/chart-base.js
-var chart_base = __webpack_require__(228);
+var chart_base = __webpack_require__(235);
 
 // EXTERNAL MODULE: ./components/HashRate/datafeeds/socket.js
-var socket = __webpack_require__(229);
+var socket = __webpack_require__(236);
 
 // EXTERNAL MODULE: ./components/HashRate/datafeeds/datafees.js
-var datafees = __webpack_require__(230);
+var datafees = __webpack_require__(237);
 
 // CONCATENATED MODULE: ./assets/data.js
 /* harmony default export */ var data = ({
@@ -3383,7 +3383,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(281)
+  var style0 = __webpack_require__(294)
 if (style0.__inject__) style0.__inject__(context)
 
 }

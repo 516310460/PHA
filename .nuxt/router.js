@@ -6,7 +6,9 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _6ecd7806 = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
 const _17759988 = () => interopDefault(import('../pages/_lang/Assets.vue' /* webpackChunkName: "pages/_lang/Assets" */))
+const _150108ad = () => interopDefault(import('../pages/_lang/download.vue' /* webpackChunkName: "pages/_lang/download" */))
 const _09b306f4 = () => interopDefault(import('../pages/_lang/Login.vue' /* webpackChunkName: "pages/_lang/Login" */))
+const _64f8e507 = () => interopDefault(import('../pages/_lang/RegDownload.vue' /* webpackChunkName: "pages/_lang/RegDownload" */))
 const _76e73d68 = () => interopDefault(import('../pages/_lang/Register.vue' /* webpackChunkName: "pages/_lang/Register" */))
 const _1f588dd6 = () => interopDefault(import('../pages/_lang/ResetPassword.vue' /* webpackChunkName: "pages/_lang/ResetPassword" */))
 
@@ -30,9 +32,17 @@ export const routerOptions = {
     component: _17759988,
     name: "lang-Assets"
   }, {
+    path: "/:lang?/download",
+    component: _150108ad,
+    name: "lang-download"
+  }, {
     path: "/:lang?/Login",
     component: _09b306f4,
     name: "lang-Login"
+  }, {
+    path: "/:lang?/RegDownload",
+    component: _64f8e507,
+    name: "lang-RegDownload"
   }, {
     path: "/:lang?/Register",
     component: _76e73d68,

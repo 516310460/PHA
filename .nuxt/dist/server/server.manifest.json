@@ -51,8 +51,10 @@
     "components/t-vpublic-trade-deal-header.js": "components/t-vpublic-trade-deal-header.js",
     "pages/_lang/Assets.js": "pages/_lang/Assets.js",
     "pages/_lang/Login.js": "pages/_lang/Login.js",
+    "pages/_lang/RegDownload.js": "pages/_lang/RegDownload.js",
     "pages/_lang/Register.js": "pages/_lang/Register.js",
     "pages/_lang/ResetPassword.js": "pages/_lang/ResetPassword.js",
+    "pages/_lang/download.js": "pages/_lang/download.js",
     "pages/_lang/index.js": "pages/_lang/index.js",
     "server.js": "server.js"
   },
@@ -107,8 +109,10 @@
     "components/t-vpublic-trade-deal-header.js": "components/t-vpublic-trade-deal-header.js.map",
     "pages/_lang/Assets.js": "pages/_lang/Assets.js.map",
     "pages/_lang/Login.js": "pages/_lang/Login.js.map",
+    "pages/_lang/RegDownload.js": "pages/_lang/RegDownload.js.map",
     "pages/_lang/Register.js": "pages/_lang/Register.js.map",
     "pages/_lang/ResetPassword.js": "pages/_lang/ResetPassword.js.map",
+    "pages/_lang/download.js": "pages/_lang/download.js.map",
     "pages/_lang/index.js": "pages/_lang/index.js.map",
     "server.js": "server.js.map"
   }

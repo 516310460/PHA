@@ -1,13 +1,13 @@
 exports.ids = [33,30];
 exports.modules = {
 
-/***/ 145:
+/***/ 149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NamedObject", function() { return NamedObject; });
-/* harmony import */ var _cname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(185);
+/* harmony import */ var _cname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(189);
 
 class NamedObject {
   constructor(name) {
@@ -74,7 +74,7 @@ class NamedObject {
 
 /***/ }),
 
-/***/ 185:
+/***/ 189:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

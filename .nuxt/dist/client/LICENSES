@@ -135,17 +135,6 @@ PERFORMANCE OF THIS SOFTWARE.
 //! moment.js locale configuration
 
 
-//! Copyright (c) JS Foundation and other contributors
-
-//! github.com/moment/moment-timezone
-
-//! license : MIT
-
-//! moment-timezone.js
-
-//! version : 0.5.33
-
-
 /*!
   * vue-router v3.5.1
   * (c) 2021 Evan You
@@ -185,3 +174,14 @@ PERFORMANCE OF THIS SOFTWARE.
  * (c) 2021 Evan You
  * @license MIT
  */
+
+
+//! Copyright (c) JS Foundation and other contributors
+
+//! github.com/moment/moment-timezone
+
+//! license : MIT
+
+//! moment-timezone.js
+
+//! version : 0.5.33
