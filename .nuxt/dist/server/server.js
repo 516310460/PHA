@@ -52913,14 +52913,14 @@ const components = {
   TVpublicPageLoading: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 72)).then(c => wrapFunctional(c.default || c)),
   TVpublicSlider: () => __webpack_require__.e(/* import() | components/t-vpublic-slider */ 47).then(__webpack_require__.bind(null, 164)).then(c => wrapFunctional(c.default || c)),
   TVpublicTradeDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-trade-deal-header */ 48).then(__webpack_require__.bind(null, 376)).then(c => wrapFunctional(c.default || c)),
-  DialogNicknameDialog: () => __webpack_require__.e(/* import() | components/dialog-nickname-dialog */ 3).then(__webpack_require__.bind(null, 377)).then(c => wrapFunctional(c.default || c)),
-  DialogTipsDialog: () => __webpack_require__.e(/* import() | components/dialog-tips-dialog */ 4).then(__webpack_require__.bind(null, 378)).then(c => wrapFunctional(c.default || c)),
-  BuycoinsHeader: () => __webpack_require__.e(/* import() | components/buycoins-header */ 2).then(__webpack_require__.bind(null, 379)).then(c => wrapFunctional(c.default || c)),
+  BuycoinsHeader: () => __webpack_require__.e(/* import() | components/buycoins-header */ 2).then(__webpack_require__.bind(null, 377)).then(c => wrapFunctional(c.default || c)),
+  DialogNicknameDialog: () => __webpack_require__.e(/* import() | components/dialog-nickname-dialog */ 3).then(__webpack_require__.bind(null, 378)).then(c => wrapFunctional(c.default || c)),
+  DialogTipsDialog: () => __webpack_require__.e(/* import() | components/dialog-tips-dialog */ 4).then(__webpack_require__.bind(null, 379)).then(c => wrapFunctional(c.default || c)),
+  KlineMain: () => __webpack_require__.e(/* import() | components/kline-main */ 35).then(__webpack_require__.bind(null, 383)).then(c => wrapFunctional(c.default || c)),
   SelectSearchPhoneSearch: () => __webpack_require__.e(/* import() | components/select-search-phone-search */ 39).then(__webpack_require__.bind(null, 380)).then(c => wrapFunctional(c.default || c)),
   SelectSearchPopper: () => __webpack_require__.e(/* import() | components/select-search-popper */ 40).then(__webpack_require__.bind(null, 195)).then(c => wrapFunctional(c.default || c)),
   SelectSearch: () => __webpack_require__.e(/* import() | components/select-search */ 38).then(__webpack_require__.bind(null, 381)).then(c => wrapFunctional(c.default || c)),
   SelectSearchText: () => __webpack_require__.e(/* import() | components/select-search-text */ 41).then(__webpack_require__.bind(null, 382)).then(c => wrapFunctional(c.default || c)),
-  KlineMain: () => __webpack_require__.e(/* import() | components/kline-main */ 35).then(__webpack_require__.bind(null, 383)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsDataUpdater: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-data-updater */ 6).then(__webpack_require__.bind(null, 194)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsDatafees: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-datafees */ 7).then(__webpack_require__.bind(null, 237)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsSocket: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-socket */ 8).then(__webpack_require__.bind(null, 236)).then(c => wrapFunctional(c.default || c)),
@@ -65707,7 +65707,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "币池-首个用户为核心的交易所",
+      "title": "隆亿跨度",
       "meta": [{
         "charset": "utf-8"
       }, {

@@ -13,7 +13,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: '币池-首个用户为核心的交易所' || pkg.name,
+    title: '隆亿跨度' || pkg.name,
     meta: [{
       charset: 'utf-8'
     },
