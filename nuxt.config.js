@@ -2,7 +2,8 @@ const pkg = require('./package')
 const path = require('path')
 // const whitelister = require('purgecss-whitelister')
 // 域名或ip
-const baseUrl = 'http://43.128.5.136:9898'
+const baseUrl = 'https://nbex.jcpt.club'
+// const baseUrl = 'http://43.128.5.136:9898'
 const imgServerUrl = "https://buybit.oss-cn-hongkong.aliyuncs.com/";
 const webSocketUrl = "wss://www.buybit.com";
 const webSocketHttpUrl = "https://www.buybit.com";

@@ -50628,7 +50628,7 @@ async function setContext(app, context) {
       error: context.error,
       base: app.router.options.base,
       env: {
-        "baseUrl": "http://43.128.5.136:9898",
+        "baseUrl": "https://nbex.jcpt.club",
         "imgServerUrl": "https://buybit.oss-cn-hongkong.aliyuncs.com/",
         "webSocketUrl": "wss://www.buybit.com",
         "webSocketHttpUrl": "https://www.buybit.com"
@@ -52905,14 +52905,14 @@ const components = {
   HashRateStop: () => __webpack_require__.e(/* import() | components/hash-rate-stop */ 26).then(__webpack_require__.bind(null, 370)).then(c => wrapFunctional(c.default || c)),
   HashRateTradeView: () => __webpack_require__.e(/* import() | components/hash-rate-trade-view */ 27).then(__webpack_require__.bind(null, 353)).then(c => wrapFunctional(c.default || c)),
   HashRateXbitTrend: () => __webpack_require__.e(/* import() | components/hash-rate-xbit-trend */ 28).then(__webpack_require__.bind(null, 371)).then(c => wrapFunctional(c.default || c)),
-  InProgress: () => __webpack_require__.e(/* import() | components/in-progress */ 29).then(__webpack_require__.bind(null, 372)).then(c => wrapFunctional(c.default || c)),
-  TVpublicDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-deal-header */ 43).then(__webpack_require__.bind(null, 373)).then(c => wrapFunctional(c.default || c)),
-  TVpublicHashRateDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-hash-rate-deal-header */ 44).then(__webpack_require__.bind(null, 374)).then(c => wrapFunctional(c.default || c)),
-  TVpublicLoading: () => __webpack_require__.e(/* import() | components/t-vpublic-loading */ 45).then(__webpack_require__.bind(null, 375)).then(c => wrapFunctional(c.default || c)),
+  TVpublicDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-deal-header */ 43).then(__webpack_require__.bind(null, 372)).then(c => wrapFunctional(c.default || c)),
+  TVpublicHashRateDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-hash-rate-deal-header */ 44).then(__webpack_require__.bind(null, 373)).then(c => wrapFunctional(c.default || c)),
+  TVpublicLoading: () => __webpack_require__.e(/* import() | components/t-vpublic-loading */ 45).then(__webpack_require__.bind(null, 374)).then(c => wrapFunctional(c.default || c)),
   TVpublicNumber: () => __webpack_require__.e(/* import() | components/t-vpublic-number */ 46).then(__webpack_require__.bind(null, 163)).then(c => wrapFunctional(c.default || c)),
   TVpublicPageLoading: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 72)).then(c => wrapFunctional(c.default || c)),
   TVpublicSlider: () => __webpack_require__.e(/* import() | components/t-vpublic-slider */ 47).then(__webpack_require__.bind(null, 164)).then(c => wrapFunctional(c.default || c)),
-  TVpublicTradeDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-trade-deal-header */ 48).then(__webpack_require__.bind(null, 376)).then(c => wrapFunctional(c.default || c)),
+  TVpublicTradeDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-trade-deal-header */ 48).then(__webpack_require__.bind(null, 375)).then(c => wrapFunctional(c.default || c)),
+  InProgress: () => __webpack_require__.e(/* import() | components/in-progress */ 29).then(__webpack_require__.bind(null, 376)).then(c => wrapFunctional(c.default || c)),
   BuycoinsHeader: () => __webpack_require__.e(/* import() | components/buycoins-header */ 2).then(__webpack_require__.bind(null, 377)).then(c => wrapFunctional(c.default || c)),
   DialogNicknameDialog: () => __webpack_require__.e(/* import() | components/dialog-nickname-dialog */ 3).then(__webpack_require__.bind(null, 378)).then(c => wrapFunctional(c.default || c)),
   DialogTipsDialog: () => __webpack_require__.e(/* import() | components/dialog-tips-dialog */ 4).then(__webpack_require__.bind(null, 379)).then(c => wrapFunctional(c.default || c)),
@@ -53176,7 +53176,7 @@ const setupProgress = axios => {
   // runtimeConfig
   const runtimeConfig = ctx.$config && ctx.$config.axios || {}; // baseURL
 
-  const baseURL =  false ? undefined : runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || 'http://43.128.5.136:9898'; // Create fresh objects for all default header scopes
+  const baseURL =  false ? undefined : runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || 'https://nbex.jcpt.club'; // Create fresh objects for all default header scopes
   // Axios creates only one which is shared across SSR requests!
   // https://github.com/mzabriskie/axios/blob/master/lib/defaults.js
 
@@ -64992,7 +64992,7 @@ const baseInfo = {
   deviceid: "browser"
 };
 let _ip = "";
-config_config.baseURL = "http://43.128.5.136:9898"; // node.js规避非授信证书的设置（开发测试环境）
+config_config.baseURL = "https://nbex.jcpt.club"; // node.js规避非授信证书的设置（开发测试环境）
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; //   if (process.server) {
 //   config.baseURL = `http://${process.env.HOST || "localhost"}:${process.env
@@ -65564,7 +65564,7 @@ Object.keys(globalFilter).forEach(key => {
 
 /* harmony default export */ var plugins_api = ((ctx, inject) => {
   const axiosConfig = {
-    baseURL: "http://43.128.5.136:9898"
+    baseURL: "https://nbex.jcpt.club"
   };
   Object.assign(ctx.$axios.defaults, axiosConfig);
   ctx.$api = api(ctx.$axios);
@@ -65716,7 +65716,7 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "description",
         "name": "description",
-        "content": "coinpool"
+        "content": "隆亿跨度"
       }, {
         "http-equiv": "Expires",
         "content": "0"

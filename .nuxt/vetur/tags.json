@@ -65,9 +65,6 @@
   "HashRateXbitTrend": {
     "description": "Auto imported from components/HashRate/xbitTrend.vue"
   },
-  "InProgress": {
-    "description": "Auto imported from components/InProgress/index.vue"
-  },
   "TVpublicDealHeader": {
     "description": "Auto imported from components/TVpublic/deal-header.vue"
   },
@@ -88,6 +85,9 @@
   },
   "TVpublicTradeDealHeader": {
     "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
+  },
+  "InProgress": {
+    "description": "Auto imported from components/InProgress/index.vue"
   },
   "BuycoinsHeader": {
     "description": "Auto imported from components/buycoins/Header.vue"
