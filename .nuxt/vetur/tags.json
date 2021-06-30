@@ -68,6 +68,9 @@
   "InProgress": {
     "description": "Auto imported from components/InProgress/index.vue"
   },
+  "BuycoinsHeader": {
+    "description": "Auto imported from components/buycoins/Header.vue"
+  },
   "TVpublicDealHeader": {
     "description": "Auto imported from components/TVpublic/deal-header.vue"
   },
@@ -88,9 +91,6 @@
   },
   "TVpublicTradeDealHeader": {
     "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
-  },
-  "BuycoinsHeader": {
-    "description": "Auto imported from components/buycoins/Header.vue"
   },
   "DialogNicknameDialog": {
     "description": "Auto imported from components/dialog/NicknameDialog.vue"
