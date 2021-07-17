@@ -112,7 +112,7 @@
   </div>
 </template>
 <script>
-// import { mapState, mapMutations } from 'vuex'
+import { mapState, mapMutations } from 'vuex'
 import qs from "qs";
 import axios from 'axios'
 export default {
@@ -136,7 +136,7 @@ export default {
     }
   },
   computed: {
-    // ...mapState(['locale'])
+    ...mapState(['locale'])
   },
   created () {
     // this.getoldMnemonic()
@@ -202,7 +202,7 @@ export default {
         .then(res => {
           if (res.data.type == "success") {
             // this.$Toast("注册成功，跳转登录")
-            this.$commonFn.toUrl('download')
+            this.$router.push(`/${this.locale}/download`)
           } else {
             this.$Toast(res.data.message)
             this.regParams.phone = ""
