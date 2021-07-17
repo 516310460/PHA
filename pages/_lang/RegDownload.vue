@@ -166,22 +166,22 @@ export default {
         phone: this.regParams.phone,
       }
       params = qs.stringify(params)
-      axios.post(`https://nbex.jcpt.club/api/user/getCode`,params)
-      .then(res=>{
-        if (res.data.type == "success") {
-          this.$Toast("获取验证码成功")
-          this.timer = setInterval(() => {
-            if (this.time <= 1) {
-              clearInterval(this.timer)
-              this.time = 60
-              return
-            }
-            this.time--
-          }, 1000)
-        }else{
-          this.$Toast(res.data.message)
-        }
-      })
+      axios.post(`https://nbex.jcpt.club/api/user/getCode`, params)
+        .then(res => {
+          if (res.data.type == "success") {
+            this.$Toast("获取验证码成功")
+            this.timer = setInterval(() => {
+              if (this.time <= 1) {
+                clearInterval(this.timer)
+                this.time = 60
+                return
+              }
+              this.time--
+            }, 1000)
+          } else {
+            this.$Toast(res.data.message)
+          }
+        })
     },
     reg () {
       if (!this.regParams.phone) {
@@ -198,17 +198,18 @@ export default {
       }
       this.regParams.password = this.$md5(this.regParams.password)
       this.regParams = qs.stringify(this.regParams)
-      axios.post(`https://nbex.jcpt.club/api/user/reg`,this.regParams)
-      .then(res=>{
-        if (res.data.type == "success") {
-          this.$Toast("注册成功，跳转登录")
-          this.$commonFn.toUrl('Public/Login')
-        } else {
-          this.$Toast(res.data.message)
-          this.regParams.phone = ""
-          this.regParams.password = ""
-        }
-      })
+      axios.post(`https://nbex.jcpt.club/api/user/reg`, this.regParams)
+        .then(res => {
+          if (res.data.type == "success") {
+            // this.$Toast("注册成功，跳转登录")
+            this.$commonFn.toUrl('download')
+          } else {
+            this.$Toast(res.data.message)
+            this.regParams.phone = ""
+            this.regParams.password = ""
+            window.location.reload();
+          }
+        })
     },
   },
 }
